@@ -43,7 +43,7 @@ bash compile_op.sh
 Download the [Semantic KITTI dataset](http://semantic-kitti.org/dataset.html#download), and preprocess the data:
 
 ```
-python data_prepare_semantickitti.py
+python input_preparation.py --dataset_path $YOURPATH
 ```
 Note: 
 - Please change the dataset path in the `data_prepare_semantickitti.py` with your own path.
@@ -54,7 +54,7 @@ Note:
 1. Training
 
 ```bash
-python3 train_SemanticKITTI.py <args>
+python main_Houston18.py <args>
 ```
 
 2. Testing
