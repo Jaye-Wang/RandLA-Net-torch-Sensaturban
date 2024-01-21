@@ -1,0 +1,1719 @@
+nohup: ignoring input
+block_12_KDTree.pkl 50.9 MB loaded in 0.1s
+block_13_KDTree.pkl 46.7 MB loaded in 0.1s
+block_16_KDTree.pkl 59.6 MB loaded in 0.1s
+block_17_KDTree.pkl 47.9 MB loaded in 0.1s
+block_20_KDTree.pkl 59.3 MB loaded in 0.1s
+block_21_KDTree.pkl 72.0 MB loaded in 0.2s
+block_24_KDTree.pkl 65.2 MB loaded in 0.2s
+block_25_KDTree.pkl 80.0 MB loaded in 0.2s
+block_28_KDTree.pkl 58.3 MB loaded in 0.1s
+block_29_KDTree.pkl 52.9 MB loaded in 0.1s
+block_32_KDTree.pkl 43.0 MB loaded in 0.1s
+block_33_KDTree.pkl 40.4 MB loaded in 0.1s
+block_36_KDTree.pkl 50.2 MB loaded in 0.1s
+block_37_KDTree.pkl 45.6 MB loaded in 0.1s
+block_8_KDTree.pkl 58.5 MB loaded in 0.1s
+block_9_KDTree.pkl 53.0 MB loaded in 0.1s
+Size of training :  16
+500 100
+**** EPOCH 000 ****
+2024-01-20 22:57:39.401189
+Step 050 Loss 21.323 Acc 0.14 lr 0.00950 --- 210.29 ms/batch
+Step 100 Loss 17.767 Acc 0.21 lr 0.00950 --- 212.49 ms/batch
+Step 150 Loss 16.257 Acc 0.33 lr 0.00950 --- 210.40 ms/batch
+Step 200 Loss 16.762 Acc 0.42 lr 0.00950 --- 209.21 ms/batch
+Step 250 Loss 16.466 Acc 0.36 lr 0.00950 --- 211.36 ms/batch
+Step 300 Loss 15.287 Acc 0.37 lr 0.00950 --- 208.78 ms/batch
+Step 350 Loss 14.438 Acc 0.38 lr 0.00950 --- 212.21 ms/batch
+Step 400 Loss 13.025 Acc 0.43 lr 0.00950 --- 211.39 ms/batch
+Step 450 Loss 12.301 Acc 0.47 lr 0.00950 --- 214.97 ms/batch
+Step 500 Loss 14.220 Acc 0.41 lr 0.00950 --- 209.51 ms/batch
+mean IoU:5.6
+IoU: 0.00  0.81  2.73  0.89  2.38  0.75  0.73  0.00 21.15 45.61 11.43  7.84  0.08 12.81  2.97  2.74  0.60  0.00  0.45  1.62  1.66 
+Best mIoU = 5.58%
+**** EVAL EPOCH 000 END****
+
+**** EPOCH 001 ****
+2024-01-20 23:03:28.380799
+Step 050 Loss 14.175 Acc 0.41 lr 0.00903 --- 209.87 ms/batch
+Step 100 Loss 14.556 Acc 0.42 lr 0.00903 --- 213.07 ms/batch
+Step 150 Loss 14.221 Acc 0.41 lr 0.00903 --- 214.58 ms/batch
+Step 200 Loss 13.062 Acc 0.46 lr 0.00903 --- 211.37 ms/batch
+Step 250 Loss 15.207 Acc 0.43 lr 0.00903 --- 213.57 ms/batch
+Step 300 Loss 14.461 Acc 0.42 lr 0.00903 --- 216.43 ms/batch
+Step 350 Loss 13.911 Acc 0.44 lr 0.00903 --- 212.49 ms/batch
+Step 400 Loss 14.170 Acc 0.47 lr 0.00903 --- 209.54 ms/batch
+Step 450 Loss 13.622 Acc 0.37 lr 0.00903 --- 211.25 ms/batch
+Step 500 Loss 12.105 Acc 0.49 lr 0.00903 --- 207.93 ms/batch
+mean IoU:6.9
+IoU: 0.00  1.13  6.37  0.16  1.38  0.13  0.03  0.00 25.90 55.79 13.66 13.19  0.00 17.11  4.42  3.61  0.15  0.00  0.11  1.51  0.89 
+Best mIoU = 6.93%
+**** EVAL EPOCH 001 END****
+
+**** EPOCH 002 ****
+2024-01-20 23:09:26.617350
+Step 050 Loss 14.289 Acc 0.40 lr 0.00857 --- 208.56 ms/batch
+Step 100 Loss 13.821 Acc 0.46 lr 0.00857 --- 211.32 ms/batch
+Step 150 Loss 12.816 Acc 0.45 lr 0.00857 --- 212.28 ms/batch
+Step 200 Loss 13.804 Acc 0.41 lr 0.00857 --- 207.46 ms/batch
+Step 250 Loss 14.275 Acc 0.39 lr 0.00857 --- 211.44 ms/batch
+Step 300 Loss 12.448 Acc 0.45 lr 0.00857 --- 208.41 ms/batch
+Step 350 Loss 11.105 Acc 0.49 lr 0.00857 --- 215.62 ms/batch
+Step 400 Loss 13.256 Acc 0.42 lr 0.00857 --- 209.13 ms/batch
+Step 450 Loss 13.315 Acc 0.43 lr 0.00857 --- 210.65 ms/batch
+Step 500 Loss 13.050 Acc 0.43 lr 0.00857 --- 210.95 ms/batch
+mean IoU:8.3
+IoU: 0.00  1.15  8.23  0.67  4.21  0.66  2.28  0.00 28.91 56.03 13.45 14.73  0.00 20.28  3.86  8.01  1.23  0.00  2.07  6.21  1.34 
+Best mIoU = 8.25%
+**** EVAL EPOCH 002 END****
+
+**** EPOCH 003 ****
+2024-01-20 23:15:12.328800
+Step 050 Loss 12.222 Acc 0.50 lr 0.00815 --- 212.73 ms/batch
+Step 100 Loss 13.175 Acc 0.46 lr 0.00815 --- 210.90 ms/batch
+Step 150 Loss 13.434 Acc 0.44 lr 0.00815 --- 209.90 ms/batch
+Step 200 Loss 11.206 Acc 0.52 lr 0.00815 --- 207.82 ms/batch
+Step 250 Loss 12.636 Acc 0.49 lr 0.00815 --- 210.26 ms/batch
+Step 300 Loss 12.455 Acc 0.44 lr 0.00815 --- 210.35 ms/batch
+Step 350 Loss 11.567 Acc 0.49 lr 0.00815 --- 210.91 ms/batch
+Step 400 Loss 12.111 Acc 0.48 lr 0.00815 --- 210.05 ms/batch
+Step 450 Loss 12.086 Acc 0.48 lr 0.00815 --- 213.80 ms/batch
+Step 500 Loss 13.238 Acc 0.47 lr 0.00815 --- 208.00 ms/batch
+mean IoU:10.3
+IoU: 0.00  1.48 11.46  0.75 18.20  2.94  1.07  0.00 29.66 62.18 16.27 14.87  0.00 17.75  8.59  7.68  2.39  0.00  9.33 11.83  0.82 
+Best mIoU = 10.35%
+**** EVAL EPOCH 003 END****
+
+**** EPOCH 004 ****
+2024-01-20 23:21:03.509967
+Step 050 Loss 12.647 Acc 0.48 lr 0.00774 --- 211.62 ms/batch
+Step 100 Loss 12.313 Acc 0.48 lr 0.00774 --- 211.56 ms/batch
+Step 150 Loss 12.131 Acc 0.44 lr 0.00774 --- 214.04 ms/batch
+Step 200 Loss 11.273 Acc 0.46 lr 0.00774 --- 209.44 ms/batch
+Step 250 Loss 11.993 Acc 0.50 lr 0.00774 --- 210.29 ms/batch
+Step 300 Loss 10.790 Acc 0.53 lr 0.00774 --- 211.15 ms/batch
+Step 350 Loss 11.392 Acc 0.48 lr 0.00774 --- 212.61 ms/batch
+Step 400 Loss 11.021 Acc 0.53 lr 0.00774 --- 212.65 ms/batch
+Step 450 Loss 11.571 Acc 0.50 lr 0.00774 --- 208.07 ms/batch
+Step 500 Loss 10.353 Acc 0.56 lr 0.00774 --- 214.59 ms/batch
+mean IoU:12.8
+IoU: 0.00  4.77 10.62  6.82 28.60  4.43  6.83  0.00 31.34 64.87 15.02 13.19  0.00 21.08 11.01  8.06  7.64  0.00 15.81 13.22  4.86 
+Best mIoU = 12.77%
+**** EVAL EPOCH 004 END****
+
+**** EPOCH 005 ****
+2024-01-20 23:27:09.707820
+Step 050 Loss 10.476 Acc 0.55 lr 0.00735 --- 211.49 ms/batch
+Step 100 Loss 13.171 Acc 0.45 lr 0.00735 --- 210.61 ms/batch
+Step 150 Loss 9.993 Acc 0.56 lr 0.00735 --- 206.52 ms/batch
+Step 200 Loss 12.011 Acc 0.51 lr 0.00735 --- 211.37 ms/batch
+Step 250 Loss 11.254 Acc 0.44 lr 0.00735 --- 209.99 ms/batch
+Step 300 Loss 11.220 Acc 0.52 lr 0.00735 --- 210.37 ms/batch
+Step 350 Loss 13.541 Acc 0.47 lr 0.00735 --- 209.74 ms/batch
+Step 400 Loss 12.083 Acc 0.51 lr 0.00735 --- 210.88 ms/batch
+Step 450 Loss 9.534 Acc 0.57 lr 0.00735 --- 213.05 ms/batch
+Step 500 Loss 10.985 Acc 0.52 lr 0.00735 --- 210.88 ms/batch
+mean IoU:13.3
+IoU: 0.00  0.39 11.16  0.55 32.69  4.23  3.29  0.00 32.46 65.68 14.37 15.54  0.00 20.42  8.63  9.75 11.60  0.00 22.53 20.90  4.14 
+Best mIoU = 13.25%
+**** EVAL EPOCH 005 END****
+
+**** EPOCH 006 ****
+2024-01-20 23:33:13.412450
+Step 050 Loss 10.582 Acc 0.56 lr 0.00698 --- 229.04 ms/batch
+Step 100 Loss 10.110 Acc 0.56 lr 0.00698 --- 210.05 ms/batch
+Step 150 Loss 11.690 Acc 0.49 lr 0.00698 --- 210.78 ms/batch
+Step 200 Loss 10.840 Acc 0.54 lr 0.00698 --- 209.67 ms/batch
+Step 250 Loss 9.778 Acc 0.54 lr 0.00698 --- 210.30 ms/batch
+Step 300 Loss 10.424 Acc 0.57 lr 0.00698 --- 213.07 ms/batch
+Step 350 Loss 10.775 Acc 0.53 lr 0.00698 --- 209.92 ms/batch
+Step 400 Loss 11.607 Acc 0.51 lr 0.00698 --- 212.02 ms/batch
+Step 450 Loss 11.404 Acc 0.54 lr 0.00698 --- 211.63 ms/batch
+Step 500 Loss 12.272 Acc 0.50 lr 0.00698 --- 209.02 ms/batch
+mean IoU:15.1
+IoU: 0.00  1.13 13.44  1.97 39.87  7.49  4.86  0.00 37.22 67.52 14.23 16.09  0.00 23.09  2.25 10.77 19.61  0.00 31.79 19.10  6.34 
+Best mIoU = 15.08%
+**** EVAL EPOCH 006 END****
+
+**** EPOCH 007 ****
+2024-01-20 23:39:20.976505
+Step 050 Loss 11.447 Acc 0.48 lr 0.00663 --- 212.22 ms/batch
+Step 100 Loss 10.709 Acc 0.53 lr 0.00663 --- 209.33 ms/batch
+Step 150 Loss 10.851 Acc 0.48 lr 0.00663 --- 213.80 ms/batch
+Step 200 Loss 10.808 Acc 0.53 lr 0.00663 --- 210.73 ms/batch
+Step 250 Loss 10.389 Acc 0.57 lr 0.00663 --- 211.56 ms/batch
+Step 300 Loss 11.834 Acc 0.54 lr 0.00663 --- 211.67 ms/batch
+Step 350 Loss 11.206 Acc 0.50 lr 0.00663 --- 209.83 ms/batch
+Step 400 Loss 10.631 Acc 0.53 lr 0.00663 --- 212.65 ms/batch
+Step 450 Loss 11.828 Acc 0.54 lr 0.00663 --- 213.80 ms/batch
+Step 500 Loss 9.942 Acc 0.55 lr 0.00663 --- 213.44 ms/batch
+mean IoU:15.1
+IoU: 0.00  1.03 10.91  0.00 39.71  7.10  0.91  0.00 36.44 63.50 15.45 13.90  0.00 23.01  2.80  8.07 25.49  0.14 29.75 21.60 17.71 
+Best mIoU = 15.12%
+**** EVAL EPOCH 007 END****
+
+**** EPOCH 008 ****
+2024-01-20 23:45:23.959047
+Step 050 Loss 11.409 Acc 0.54 lr 0.00630 --- 210.41 ms/batch
+Step 100 Loss 9.593 Acc 0.57 lr 0.00630 --- 212.12 ms/batch
+Step 150 Loss 9.322 Acc 0.57 lr 0.00630 --- 215.36 ms/batch
+Step 200 Loss 10.175 Acc 0.57 lr 0.00630 --- 225.09 ms/batch
+Step 250 Loss 10.467 Acc 0.55 lr 0.00630 --- 211.72 ms/batch
+Step 300 Loss 11.504 Acc 0.52 lr 0.00630 --- 213.77 ms/batch
+Step 350 Loss 10.032 Acc 0.56 lr 0.00630 --- 211.83 ms/batch
+Step 400 Loss 9.637 Acc 0.58 lr 0.00630 --- 216.44 ms/batch
+Step 450 Loss 10.563 Acc 0.57 lr 0.00630 --- 209.42 ms/batch
+Step 500 Loss 10.362 Acc 0.55 lr 0.00630 --- 211.05 ms/batch
+mean IoU:17.7
+IoU: 0.00  0.74  8.38  0.78 43.67  4.37  3.49  0.75 42.47 69.74 15.50 14.91  0.20 23.58  3.49  9.24 39.47  0.00 40.23 29.28 20.90 
+Best mIoU = 17.68%
+**** EVAL EPOCH 008 END****
+
+**** EPOCH 009 ****
+2024-01-20 23:51:28.006580
+Step 050 Loss 9.515 Acc 0.58 lr 0.00599 --- 216.67 ms/batch
+Step 100 Loss 9.071 Acc 0.59 lr 0.00599 --- 210.40 ms/batch
+Step 150 Loss 9.830 Acc 0.58 lr 0.00599 --- 210.36 ms/batch
+Step 200 Loss 10.455 Acc 0.54 lr 0.00599 --- 211.63 ms/batch
+Step 250 Loss 9.568 Acc 0.62 lr 0.00599 --- 211.58 ms/batch
+Step 300 Loss 9.837 Acc 0.58 lr 0.00599 --- 213.09 ms/batch
+Step 350 Loss 10.052 Acc 0.55 lr 0.00599 --- 216.19 ms/batch
+Step 400 Loss 10.288 Acc 0.59 lr 0.00599 --- 207.40 ms/batch
+Step 450 Loss 10.654 Acc 0.57 lr 0.00599 --- 209.39 ms/batch
+Step 500 Loss 10.017 Acc 0.57 lr 0.00599 --- 212.63 ms/batch
+mean IoU:19.9
+IoU: 0.00  1.51  8.49  0.00 41.48  9.63  0.84  0.37 43.24 72.57 14.00 16.59  0.00 27.50 10.84  9.88 49.71  0.00 50.70 33.92 27.31 
+Best mIoU = 19.93%
+**** EVAL EPOCH 009 END****
+
+**** EPOCH 010 ****
+2024-01-20 23:57:30.894294
+Step 050 Loss 8.973 Acc 0.62 lr 0.00569 --- 209.95 ms/batch
+Step 100 Loss 9.537 Acc 0.60 lr 0.00569 --- 208.03 ms/batch
+Step 150 Loss 8.964 Acc 0.62 lr 0.00569 --- 212.25 ms/batch
+Step 200 Loss 9.007 Acc 0.58 lr 0.00569 --- 210.53 ms/batch
+Step 250 Loss 10.180 Acc 0.58 lr 0.00569 --- 208.64 ms/batch
+Step 300 Loss 8.022 Acc 0.63 lr 0.00569 --- 216.08 ms/batch
+Step 350 Loss 8.726 Acc 0.62 lr 0.00569 --- 211.12 ms/batch
+Step 400 Loss 10.081 Acc 0.56 lr 0.00569 --- 212.03 ms/batch
+Step 450 Loss 8.650 Acc 0.61 lr 0.00569 --- 211.27 ms/batch
+Step 500 Loss 10.610 Acc 0.56 lr 0.00569 --- 216.10 ms/batch
+mean IoU:21.7
+IoU: 0.00  1.69 13.08  0.73 46.38  8.91  3.57  0.33 45.62 73.29 13.25 18.51  0.01 28.54 10.95 12.31 51.32  0.02 52.25 38.95 36.04 
+Best mIoU = 21.70%
+**** EVAL EPOCH 010 END****
+
+**** EPOCH 011 ****
+2024-01-21 00:03:33.719039
+Step 050 Loss 7.918 Acc 0.63 lr 0.00540 --- 209.18 ms/batch
+Step 100 Loss 8.580 Acc 0.62 lr 0.00540 --- 210.32 ms/batch
+Step 150 Loss 10.326 Acc 0.56 lr 0.00540 --- 211.85 ms/batch
+Step 200 Loss 10.158 Acc 0.58 lr 0.00540 --- 211.36 ms/batch
+Step 250 Loss 8.010 Acc 0.63 lr 0.00540 --- 214.17 ms/batch
+Step 300 Loss 9.102 Acc 0.63 lr 0.00540 --- 210.49 ms/batch
+Step 350 Loss 9.076 Acc 0.62 lr 0.00540 --- 211.76 ms/batch
+Step 400 Loss 9.295 Acc 0.61 lr 0.00540 --- 210.88 ms/batch
+Step 450 Loss 9.058 Acc 0.60 lr 0.00540 --- 213.42 ms/batch
+Step 500 Loss 8.864 Acc 0.62 lr 0.00540 --- 211.52 ms/batch
+mean IoU:23.6
+IoU: 0.00  3.16 18.69  2.18 46.43  9.26  5.87  3.79 47.45 74.96 15.05 18.52  0.00 28.24 15.40 16.79 54.91  0.00 54.64 44.69 36.40 
+Best mIoU = 23.64%
+**** EVAL EPOCH 011 END****
+
+**** EPOCH 012 ****
+2024-01-21 00:09:38.118014
+Step 050 Loss 7.558 Acc 0.65 lr 0.00513 --- 210.97 ms/batch
+Step 100 Loss 8.992 Acc 0.62 lr 0.00513 --- 213.99 ms/batch
+Step 150 Loss 9.489 Acc 0.58 lr 0.00513 --- 210.07 ms/batch
+Step 200 Loss 9.115 Acc 0.63 lr 0.00513 --- 238.82 ms/batch
+Step 250 Loss 9.497 Acc 0.60 lr 0.00513 --- 210.57 ms/batch
+Step 300 Loss 8.054 Acc 0.62 lr 0.00513 --- 210.80 ms/batch
+Step 350 Loss 9.174 Acc 0.64 lr 0.00513 --- 211.15 ms/batch
+Step 400 Loss 8.600 Acc 0.63 lr 0.00513 --- 213.21 ms/batch
+Step 450 Loss 7.951 Acc 0.66 lr 0.00513 --- 209.79 ms/batch
+Step 500 Loss 8.937 Acc 0.62 lr 0.00513 --- 210.53 ms/batch
+mean IoU:24.9
+IoU: 0.00  4.12 18.01  1.94 47.48  7.51  6.45  2.35 49.12 76.63 15.09 18.62  0.01 28.39 18.86 20.74 61.27  0.01 59.01 41.11 45.30 
+Best mIoU = 24.86%
+**** EVAL EPOCH 012 END****
+
+**** EPOCH 013 ****
+2024-01-21 00:15:43.095603
+Step 050 Loss 9.168 Acc 0.61 lr 0.00488 --- 210.74 ms/batch
+Step 100 Loss 7.946 Acc 0.65 lr 0.00488 --- 215.43 ms/batch
+Step 150 Loss 8.802 Acc 0.60 lr 0.00488 --- 212.55 ms/batch
+Step 200 Loss 8.917 Acc 0.62 lr 0.00488 --- 209.25 ms/batch
+Step 250 Loss 7.663 Acc 0.65 lr 0.00488 --- 212.86 ms/batch
+Step 300 Loss 8.638 Acc 0.63 lr 0.00488 --- 213.96 ms/batch
+Step 350 Loss 8.627 Acc 0.65 lr 0.00488 --- 207.97 ms/batch
+Step 400 Loss 6.989 Acc 0.68 lr 0.00488 --- 211.65 ms/batch
+Step 450 Loss 9.032 Acc 0.61 lr 0.00488 --- 208.76 ms/batch
+Step 500 Loss 8.355 Acc 0.64 lr 0.00488 --- 211.93 ms/batch
+mean IoU:27.9
+IoU: 0.00  3.35 22.98  4.34 48.30 10.48  9.25  6.08 49.14 78.10 15.84 20.15  0.00 27.91 21.88 28.38 64.54  0.00 62.44 55.02 57.10 
+Best mIoU = 27.87%
+**** EVAL EPOCH 013 END****
+
+**** EPOCH 014 ****
+2024-01-21 00:21:46.233717
+Step 050 Loss 7.810 Acc 0.65 lr 0.00463 --- 214.02 ms/batch
+Step 100 Loss 9.210 Acc 0.60 lr 0.00463 --- 209.43 ms/batch
+Step 150 Loss 8.020 Acc 0.64 lr 0.00463 --- 212.34 ms/batch
+Step 200 Loss 7.468 Acc 0.66 lr 0.00463 --- 211.00 ms/batch
+Step 250 Loss 7.666 Acc 0.67 lr 0.00463 --- 212.83 ms/batch
+Step 300 Loss 8.838 Acc 0.64 lr 0.00463 --- 209.90 ms/batch
+Step 350 Loss 9.246 Acc 0.60 lr 0.00463 --- 212.81 ms/batch
+Step 400 Loss 7.980 Acc 0.66 lr 0.00463 --- 212.00 ms/batch
+Step 450 Loss 7.605 Acc 0.68 lr 0.00463 --- 211.00 ms/batch
+Step 500 Loss 8.221 Acc 0.64 lr 0.00463 --- 209.10 ms/batch
+mean IoU:28.1
+IoU: 0.00  6.35 26.53  4.91 50.36  6.35 12.61  5.02 51.80 78.73 17.49 20.62  0.00 28.89 21.29 25.05 62.23  0.00 66.07 47.20 58.49 
+Best mIoU = 28.09%
+**** EVAL EPOCH 014 END****
+
+**** EPOCH 015 ****
+2024-01-21 00:27:49.819818
+Step 050 Loss 7.702 Acc 0.67 lr 0.00440 --- 214.87 ms/batch
+Step 100 Loss 7.078 Acc 0.68 lr 0.00440 --- 209.95 ms/batch
+Step 150 Loss 7.695 Acc 0.67 lr 0.00440 --- 211.01 ms/batch
+Step 200 Loss 7.261 Acc 0.66 lr 0.00440 --- 211.71 ms/batch
+Step 250 Loss 8.801 Acc 0.63 lr 0.00440 --- 213.84 ms/batch
+Step 300 Loss 7.724 Acc 0.68 lr 0.00440 --- 208.72 ms/batch
+Step 350 Loss 8.534 Acc 0.63 lr 0.00440 --- 211.59 ms/batch
+Step 400 Loss 8.357 Acc 0.63 lr 0.00440 --- 209.63 ms/batch
+Step 450 Loss 7.055 Acc 0.66 lr 0.00440 --- 210.91 ms/batch
+Step 500 Loss 7.660 Acc 0.66 lr 0.00440 --- 211.14 ms/batch
+mean IoU:29.5
+IoU: 0.00  4.49 27.42  5.22 48.66 10.19 13.25  6.09 52.68 80.12 17.57 20.80  0.00 29.08 26.70 32.27 68.23  0.00 67.69 54.62 53.75 
+Best mIoU = 29.47%
+**** EVAL EPOCH 015 END****
+
+**** EPOCH 016 ****
+2024-01-21 00:33:53.140391
+Step 050 Loss 7.462 Acc 0.64 lr 0.00418 --- 211.04 ms/batch
+Step 100 Loss 7.630 Acc 0.67 lr 0.00418 --- 211.92 ms/batch
+Step 150 Loss 7.543 Acc 0.65 lr 0.00418 --- 212.91 ms/batch
+Step 200 Loss 6.778 Acc 0.70 lr 0.00418 --- 214.69 ms/batch
+Step 250 Loss 8.398 Acc 0.65 lr 0.00418 --- 206.82 ms/batch
+Step 300 Loss 6.569 Acc 0.70 lr 0.00418 --- 212.72 ms/batch
+Step 350 Loss 8.519 Acc 0.64 lr 0.00418 --- 213.88 ms/batch
+Step 400 Loss 7.340 Acc 0.68 lr 0.00418 --- 207.09 ms/batch
+Step 450 Loss 7.576 Acc 0.67 lr 0.00418 --- 218.18 ms/batch
+Step 500 Loss 7.517 Acc 0.69 lr 0.00418 --- 207.52 ms/batch
+mean IoU:31.1
+IoU: 0.00  7.32 29.77  8.14 49.55  5.52 17.76  7.16 55.48 80.68 18.29 21.52  0.01 32.95 27.09 36.00 71.16  0.00 66.89 50.87 66.11 
+Best mIoU = 31.06%
+**** EVAL EPOCH 016 END****
+
+**** EPOCH 017 ****
+2024-01-21 00:39:58.844692
+Step 050 Loss 8.786 Acc 0.62 lr 0.00397 --- 210.07 ms/batch
+Step 100 Loss 7.634 Acc 0.68 lr 0.00397 --- 211.79 ms/batch
+Step 150 Loss 6.365 Acc 0.73 lr 0.00397 --- 216.81 ms/batch
+Step 200 Loss 7.200 Acc 0.67 lr 0.00397 --- 208.91 ms/batch
+Step 250 Loss 6.885 Acc 0.68 lr 0.00397 --- 208.91 ms/batch
+Step 300 Loss 7.552 Acc 0.68 lr 0.00397 --- 209.03 ms/batch
+Step 350 Loss 6.305 Acc 0.73 lr 0.00397 --- 212.86 ms/batch
+Step 400 Loss 6.924 Acc 0.69 lr 0.00397 --- 215.48 ms/batch
+Step 450 Loss 8.644 Acc 0.63 lr 0.00397 --- 208.49 ms/batch
+Step 500 Loss 8.471 Acc 0.64 lr 0.00397 --- 212.70 ms/batch
+mean IoU:31.8
+IoU: 0.00  8.07 30.91 12.32 50.97 10.25 20.52  7.17 58.17 82.00 18.70 21.87  0.00 29.09 30.86 37.70 67.54  0.00 68.90 50.18 62.71 
+Best mIoU = 31.81%
+**** EVAL EPOCH 017 END****
+
+**** EPOCH 018 ****
+2024-01-21 00:46:03.831612
+Step 050 Loss 8.269 Acc 0.64 lr 0.00377 --- 210.53 ms/batch
+Step 100 Loss 7.309 Acc 0.67 lr 0.00377 --- 212.63 ms/batch
+Step 150 Loss 7.192 Acc 0.69 lr 0.00377 --- 212.03 ms/batch
+Step 200 Loss 7.237 Acc 0.69 lr 0.00377 --- 212.25 ms/batch
+Step 250 Loss 6.980 Acc 0.71 lr 0.00377 --- 211.33 ms/batch
+Step 300 Loss 7.613 Acc 0.68 lr 0.00377 --- 209.30 ms/batch
+Step 350 Loss 6.934 Acc 0.70 lr 0.00377 --- 210.99 ms/batch
+Step 400 Loss 7.461 Acc 0.69 lr 0.00377 --- 211.74 ms/batch
+Step 450 Loss 6.825 Acc 0.68 lr 0.00377 --- 215.55 ms/batch
+Step 500 Loss 7.473 Acc 0.70 lr 0.00377 --- 211.98 ms/batch
+mean IoU:33.1
+IoU: 0.00  5.52 31.69 14.18 53.15  6.32 15.05  7.44 56.69 81.25 21.38 23.45  0.01 33.52 30.86 49.02 69.48  0.00 71.03 56.67 68.14 
+Best mIoU = 33.09%
+**** EVAL EPOCH 018 END****
+
+**** EPOCH 019 ****
+2024-01-21 00:52:09.531634
+Step 050 Loss 6.160 Acc 0.69 lr 0.00358 --- 210.84 ms/batch
+Step 100 Loss 7.336 Acc 0.68 lr 0.00358 --- 209.56 ms/batch
+Step 150 Loss 6.535 Acc 0.72 lr 0.00358 --- 208.78 ms/batch
+Step 200 Loss 7.001 Acc 0.71 lr 0.00358 --- 213.70 ms/batch
+Step 250 Loss 5.966 Acc 0.73 lr 0.00358 --- 209.00 ms/batch
+Step 300 Loss 7.744 Acc 0.69 lr 0.00358 --- 210.93 ms/batch
+Step 350 Loss 7.196 Acc 0.68 lr 0.00358 --- 210.96 ms/batch
+Step 400 Loss 5.867 Acc 0.73 lr 0.00358 --- 207.45 ms/batch
+Step 450 Loss 7.586 Acc 0.68 lr 0.00358 --- 212.57 ms/batch
+Step 500 Loss 7.046 Acc 0.71 lr 0.00358 --- 213.68 ms/batch
+mean IoU:35.4
+IoU: 0.00  9.04 31.77 24.50 54.75  9.77 25.33  7.16 61.12 83.10 23.39 23.00  0.00 31.54 31.95 50.99 70.24  0.00 71.57 62.41 72.46 
+Best mIoU = 35.43%
+**** EVAL EPOCH 019 END****
+
+**** EPOCH 020 ****
+2024-01-21 00:58:12.123380
+Step 050 Loss 6.978 Acc 0.70 lr 0.00341 --- 211.07 ms/batch
+Step 100 Loss 7.044 Acc 0.70 lr 0.00341 --- 213.40 ms/batch
+Step 150 Loss 6.612 Acc 0.69 lr 0.00341 --- 210.18 ms/batch
+Step 200 Loss 5.997 Acc 0.72 lr 0.00341 --- 216.78 ms/batch
+Step 250 Loss 7.432 Acc 0.69 lr 0.00341 --- 214.07 ms/batch
+Step 300 Loss 6.035 Acc 0.74 lr 0.00341 --- 210.23 ms/batch
+Step 350 Loss 7.179 Acc 0.71 lr 0.00341 --- 214.95 ms/batch
+Step 400 Loss 6.035 Acc 0.73 lr 0.00341 --- 210.03 ms/batch
+Step 450 Loss 6.478 Acc 0.71 lr 0.00341 --- 214.17 ms/batch
+Step 500 Loss 7.021 Acc 0.71 lr 0.00341 --- 208.63 ms/batch
+mean IoU:35.6
+IoU: 0.00  9.18 35.19 10.75 53.47 14.38 23.45 10.60 63.74 84.77 22.48 23.24  0.00 36.55 31.05 50.64 71.62  0.72 66.64 64.41 73.90 
+Best mIoU = 35.56%
+**** EVAL EPOCH 020 END****
+
+**** EPOCH 021 ****
+2024-01-21 01:04:17.664196
+Step 050 Loss 7.176 Acc 0.71 lr 0.00324 --- 210.03 ms/batch
+Step 100 Loss 6.364 Acc 0.69 lr 0.00324 --- 214.57 ms/batch
+Step 150 Loss 6.750 Acc 0.72 lr 0.00324 --- 213.64 ms/batch
+Step 200 Loss 6.470 Acc 0.73 lr 0.00324 --- 209.59 ms/batch
+Step 250 Loss 6.759 Acc 0.70 lr 0.00324 --- 211.92 ms/batch
+Step 300 Loss 6.635 Acc 0.72 lr 0.00324 --- 210.65 ms/batch
+Step 350 Loss 6.486 Acc 0.71 lr 0.00324 --- 214.41 ms/batch
+Step 400 Loss 6.341 Acc 0.74 lr 0.00324 --- 209.82 ms/batch
+Step 450 Loss 6.079 Acc 0.73 lr 0.00324 --- 209.34 ms/batch
+Step 500 Loss 6.305 Acc 0.71 lr 0.00324 --- 210.39 ms/batch
+mean IoU:38.1
+IoU: 0.00  8.40 37.57 15.65 53.92 15.74 24.32 11.94 64.68 84.92 24.21 24.28  0.04 36.15 36.73 62.51 75.77  0.13 78.36 67.71 77.38 
+Best mIoU = 38.11%
+**** EVAL EPOCH 021 END****
+
+**** EPOCH 022 ****
+2024-01-21 01:10:23.367651
+Step 050 Loss 6.425 Acc 0.73 lr 0.00307 --- 208.90 ms/batch
+Step 100 Loss 6.544 Acc 0.72 lr 0.00307 --- 210.06 ms/batch
+Step 150 Loss 5.945 Acc 0.74 lr 0.00307 --- 214.70 ms/batch
+Step 200 Loss 5.847 Acc 0.74 lr 0.00307 --- 212.60 ms/batch
+Step 250 Loss 6.892 Acc 0.71 lr 0.00307 --- 212.53 ms/batch
+Step 300 Loss 6.555 Acc 0.72 lr 0.00307 --- 210.68 ms/batch
+Step 350 Loss 6.537 Acc 0.73 lr 0.00307 --- 207.92 ms/batch
+Step 400 Loss 6.407 Acc 0.71 lr 0.00307 --- 214.02 ms/batch
+Step 450 Loss 6.549 Acc 0.74 lr 0.00307 --- 208.73 ms/batch
+Step 500 Loss 5.937 Acc 0.72 lr 0.00307 --- 215.56 ms/batch
+mean IoU:38.5
+IoU: 0.00 10.27 37.23 21.31 57.02 13.33 25.01  9.43 66.56 85.59 25.09 24.32  0.00 37.12 37.51 59.01 74.96  0.01 76.30 69.49 78.44 
+Best mIoU = 38.48%
+**** EVAL EPOCH 022 END****
+
+**** EPOCH 023 ****
+2024-01-21 01:16:27.577518
+Step 050 Loss 6.462 Acc 0.71 lr 0.00292 --- 212.32 ms/batch
+Step 100 Loss 5.741 Acc 0.75 lr 0.00292 --- 211.96 ms/batch
+Step 150 Loss 5.812 Acc 0.72 lr 0.00292 --- 211.57 ms/batch
+Step 200 Loss 7.617 Acc 0.69 lr 0.00292 --- 208.04 ms/batch
+Step 250 Loss 6.548 Acc 0.72 lr 0.00292 --- 213.57 ms/batch
+Step 300 Loss 6.165 Acc 0.74 lr 0.00292 --- 215.66 ms/batch
+Step 350 Loss 5.598 Acc 0.75 lr 0.00292 --- 208.51 ms/batch
+Step 400 Loss 6.100 Acc 0.75 lr 0.00292 --- 212.70 ms/batch
+Step 450 Loss 6.476 Acc 0.73 lr 0.00292 --- 214.75 ms/batch
+Step 500 Loss 6.092 Acc 0.73 lr 0.00292 --- 212.46 ms/batch
+mean IoU:38.6
+IoU: 0.00  8.38 37.40 22.24 54.24 15.01 27.70  8.14 69.18 86.38 25.37 26.11  0.00 38.89 38.31 61.62 74.85  0.24 75.21 64.32 76.65 
+Best mIoU = 38.58%
+**** EVAL EPOCH 023 END****
+
+**** EPOCH 024 ****
+2024-01-21 01:22:33.013278
+Step 050 Loss 6.755 Acc 0.71 lr 0.00277 --- 210.17 ms/batch
+Step 100 Loss 6.104 Acc 0.72 lr 0.00277 --- 214.43 ms/batch
+Step 150 Loss 5.943 Acc 0.75 lr 0.00277 --- 210.03 ms/batch
+Step 200 Loss 5.727 Acc 0.76 lr 0.00277 --- 212.49 ms/batch
+Step 250 Loss 6.080 Acc 0.71 lr 0.00277 --- 213.90 ms/batch
+Step 300 Loss 5.911 Acc 0.75 lr 0.00277 --- 212.26 ms/batch
+Step 350 Loss 5.664 Acc 0.75 lr 0.00277 --- 211.13 ms/batch
+Step 400 Loss 6.055 Acc 0.74 lr 0.00277 --- 208.65 ms/batch
+Step 450 Loss 6.072 Acc 0.75 lr 0.00277 --- 210.57 ms/batch
+Step 500 Loss 6.467 Acc 0.75 lr 0.00277 --- 210.07 ms/batch
+mean IoU:40.9
+IoU: 0.00  9.31 37.91 39.52 58.05 18.12 33.87  9.70 69.39 86.77 27.33 26.71  0.00 39.72 37.87 67.14 74.29  0.27 76.74 70.88 75.77 
+Best mIoU = 40.92%
+**** EVAL EPOCH 024 END****
+
+**** EPOCH 025 ****
+2024-01-21 01:28:36.928580
+Step 050 Loss 5.915 Acc 0.74 lr 0.00264 --- 211.67 ms/batch
+Step 100 Loss 6.947 Acc 0.72 lr 0.00264 --- 211.97 ms/batch
+Step 150 Loss 6.276 Acc 0.73 lr 0.00264 --- 212.07 ms/batch
+Step 200 Loss 5.602 Acc 0.77 lr 0.00264 --- 213.99 ms/batch
+Step 250 Loss 6.327 Acc 0.72 lr 0.00264 --- 211.48 ms/batch
+Step 300 Loss 5.578 Acc 0.75 lr 0.00264 --- 212.22 ms/batch
+Step 350 Loss 5.663 Acc 0.76 lr 0.00264 --- 211.52 ms/batch
+Step 400 Loss 5.262 Acc 0.77 lr 0.00264 --- 210.18 ms/batch
+Step 450 Loss 6.081 Acc 0.74 lr 0.00264 --- 227.88 ms/batch
+Step 500 Loss 6.361 Acc 0.74 lr 0.00264 --- 209.78 ms/batch
+mean IoU:41.6
+IoU: 0.00 11.89 40.90 35.16 57.65 17.34 20.47 11.57 71.13 87.42 28.56 27.20  0.00 38.71 43.34 72.05 76.33  0.18 75.15 76.79 82.51 
+Best mIoU = 41.64%
+**** EVAL EPOCH 025 END****
+
+**** EPOCH 026 ****
+2024-01-21 01:34:41.298231
+Step 050 Loss 5.800 Acc 0.75 lr 0.00250 --- 208.31 ms/batch
+Step 100 Loss 5.497 Acc 0.74 lr 0.00250 --- 213.42 ms/batch
+Step 150 Loss 5.629 Acc 0.75 lr 0.00250 --- 209.58 ms/batch
+Step 200 Loss 6.020 Acc 0.74 lr 0.00250 --- 210.77 ms/batch
+Step 250 Loss 5.747 Acc 0.74 lr 0.00250 --- 210.16 ms/batch
+Step 300 Loss 5.894 Acc 0.74 lr 0.00250 --- 211.68 ms/batch
+Step 350 Loss 5.824 Acc 0.76 lr 0.00250 --- 213.67 ms/batch
+Step 400 Loss 5.588 Acc 0.77 lr 0.00250 --- 210.74 ms/batch
+Step 450 Loss 6.084 Acc 0.73 lr 0.00250 --- 211.85 ms/batch
+Step 500 Loss 5.341 Acc 0.78 lr 0.00250 --- 209.08 ms/batch
+mean IoU:40.7
+IoU: 0.00 12.74 38.50  8.02 57.35 16.85 33.00 13.77 69.92 86.78 30.19 27.47  0.00 43.64 44.38 68.19 75.50  0.22 78.08 71.32 77.84 
+Best mIoU = 41.64%
+**** EVAL EPOCH 026 END****
+
+**** EPOCH 027 ****
+2024-01-21 01:40:48.448557
+Step 050 Loss 5.363 Acc 0.76 lr 0.00238 --- 219.71 ms/batch
+Step 100 Loss 6.414 Acc 0.73 lr 0.00238 --- 209.85 ms/batch
+Step 150 Loss 6.010 Acc 0.73 lr 0.00238 --- 211.50 ms/batch
+Step 200 Loss 5.883 Acc 0.76 lr 0.00238 --- 210.98 ms/batch
+Step 250 Loss 5.522 Acc 0.75 lr 0.00238 --- 212.76 ms/batch
+Step 300 Loss 5.760 Acc 0.75 lr 0.00238 --- 215.26 ms/batch
+Step 350 Loss 5.420 Acc 0.76 lr 0.00238 --- 218.60 ms/batch
+Step 400 Loss 5.257 Acc 0.76 lr 0.00238 --- 212.57 ms/batch
+Step 450 Loss 5.481 Acc 0.77 lr 0.00238 --- 208.69 ms/batch
+Step 500 Loss 5.196 Acc 0.80 lr 0.00238 --- 215.46 ms/batch
+mean IoU:43.6
+IoU: 0.00 13.52 42.52 40.44 58.59 18.17 31.10 15.04 71.38 88.18 29.10 27.89  0.00 42.30 47.86 75.31 77.59  0.12 79.15 75.84 81.48 
+Best mIoU = 43.60%
+**** EVAL EPOCH 027 END****
+
+**** EPOCH 028 ****
+2024-01-21 01:46:54.206905
+Step 050 Loss 5.801 Acc 0.75 lr 0.00226 --- 212.09 ms/batch
+Step 100 Loss 5.357 Acc 0.76 lr 0.00226 --- 211.24 ms/batch
+Step 150 Loss 6.930 Acc 0.71 lr 0.00226 --- 210.70 ms/batch
+Step 200 Loss 5.624 Acc 0.74 lr 0.00226 --- 210.18 ms/batch
+Step 250 Loss 5.537 Acc 0.77 lr 0.00226 --- 210.32 ms/batch
+Step 300 Loss 5.135 Acc 0.77 lr 0.00226 --- 230.90 ms/batch
+Step 350 Loss 5.336 Acc 0.76 lr 0.00226 --- 210.97 ms/batch
+Step 400 Loss 5.188 Acc 0.76 lr 0.00226 --- 213.61 ms/batch
+Step 450 Loss 5.219 Acc 0.77 lr 0.00226 --- 212.03 ms/batch
+Step 500 Loss 6.282 Acc 0.73 lr 0.00226 --- 216.24 ms/batch
+mean IoU:43.3
+IoU: 0.00 10.94 42.83 25.03 60.39 20.28 30.07 14.38 70.32 87.64 30.93 27.56  0.01 42.91 50.06 80.31 78.21  0.04 80.23 71.53 84.79 
+Best mIoU = 43.60%
+**** EVAL EPOCH 028 END****
+
+**** EPOCH 029 ****
+2024-01-21 01:52:55.457445
+Step 050 Loss 5.448 Acc 0.75 lr 0.00215 --- 213.04 ms/batch
+Step 100 Loss 5.751 Acc 0.76 lr 0.00215 --- 212.22 ms/batch
+Step 150 Loss 5.125 Acc 0.76 lr 0.00215 --- 211.86 ms/batch
+Step 200 Loss 4.941 Acc 0.79 lr 0.00215 --- 212.60 ms/batch
+Step 250 Loss 5.436 Acc 0.75 lr 0.00215 --- 221.11 ms/batch
+Step 300 Loss 5.673 Acc 0.76 lr 0.00215 --- 211.08 ms/batch
+Step 350 Loss 5.364 Acc 0.76 lr 0.00215 --- 208.78 ms/batch
+Step 400 Loss 4.929 Acc 0.79 lr 0.00215 --- 210.62 ms/batch
+Step 450 Loss 5.430 Acc 0.76 lr 0.00215 --- 212.84 ms/batch
+Step 500 Loss 5.627 Acc 0.78 lr 0.00215 --- 210.17 ms/batch
+mean IoU:45.5
+IoU: 0.00 15.50 40.56 44.87 57.86 21.43 30.15 19.01 75.34 89.34 31.63 29.04  0.00 44.39 50.07 80.85 80.56  0.42 81.26 77.77 84.88 
+Best mIoU = 45.47%
+**** EVAL EPOCH 029 END****
+
+**** EPOCH 030 ****
+2024-01-21 01:58:59.893450
+Step 050 Loss 4.845 Acc 0.78 lr 0.00204 --- 207.83 ms/batch
+Step 100 Loss 5.289 Acc 0.75 lr 0.00204 --- 213.03 ms/batch
+Step 150 Loss 5.164 Acc 0.77 lr 0.00204 --- 212.43 ms/batch
+Step 200 Loss 5.618 Acc 0.76 lr 0.00204 --- 215.83 ms/batch
+Step 250 Loss 5.380 Acc 0.78 lr 0.00204 --- 210.77 ms/batch
+Step 300 Loss 5.349 Acc 0.79 lr 0.00204 --- 210.68 ms/batch
+Step 350 Loss 5.282 Acc 0.78 lr 0.00204 --- 216.61 ms/batch
+Step 400 Loss 5.153 Acc 0.78 lr 0.00204 --- 213.26 ms/batch
+Step 450 Loss 5.300 Acc 0.77 lr 0.00204 --- 211.03 ms/batch
+Step 500 Loss 4.763 Acc 0.78 lr 0.00204 --- 211.89 ms/batch
+mean IoU:45.7
+IoU: 0.00 13.59 43.19 41.16 60.60 25.56 30.08 14.63 76.02 89.68 32.41 30.55  0.00 46.93 53.63 78.98 78.38  0.52 81.83 79.51 83.47 
+Best mIoU = 45.75%
+**** EVAL EPOCH 030 END****
+
+**** EPOCH 031 ****
+2024-01-21 02:05:04.274981
+Step 050 Loss 5.565 Acc 0.76 lr 0.00194 --- 208.98 ms/batch
+Step 100 Loss 5.206 Acc 0.78 lr 0.00194 --- 211.62 ms/batch
+Step 150 Loss 4.848 Acc 0.78 lr 0.00194 --- 213.55 ms/batch
+Step 200 Loss 5.079 Acc 0.76 lr 0.00194 --- 207.09 ms/batch
+Step 250 Loss 5.152 Acc 0.77 lr 0.00194 --- 212.81 ms/batch
+Step 300 Loss 4.496 Acc 0.80 lr 0.00194 --- 213.65 ms/batch
+Step 350 Loss 5.425 Acc 0.78 lr 0.00194 --- 213.30 ms/batch
+Step 400 Loss 4.679 Acc 0.78 lr 0.00194 --- 211.03 ms/batch
+Step 450 Loss 5.546 Acc 0.77 lr 0.00194 --- 209.34 ms/batch
+Step 500 Loss 5.743 Acc 0.75 lr 0.00194 --- 217.51 ms/batch
+mean IoU:46.9
+IoU: 0.00 16.30 46.35 35.29 60.31 24.44 52.46 17.25 74.64 89.24 33.65 30.21  0.01 47.62 58.10 78.10 77.85  0.69 82.78 81.53 77.45 
+Best mIoU = 46.87%
+**** EVAL EPOCH 031 END****
+
+**** EPOCH 032 ****
+2024-01-21 02:11:08.736734
+Step 050 Loss 5.079 Acc 0.77 lr 0.00184 --- 214.56 ms/batch
+Step 100 Loss 5.084 Acc 0.79 lr 0.00184 --- 210.17 ms/batch
+Step 150 Loss 4.247 Acc 0.80 lr 0.00184 --- 216.44 ms/batch
+Step 200 Loss 4.835 Acc 0.78 lr 0.00184 --- 210.69 ms/batch
+Step 250 Loss 5.227 Acc 0.78 lr 0.00184 --- 213.07 ms/batch
+Step 300 Loss 5.538 Acc 0.78 lr 0.00184 --- 215.49 ms/batch
+Step 350 Loss 4.879 Acc 0.79 lr 0.00184 --- 206.76 ms/batch
+Step 400 Loss 4.838 Acc 0.80 lr 0.00184 --- 207.61 ms/batch
+Step 450 Loss 5.335 Acc 0.77 lr 0.00184 --- 211.58 ms/batch
+Step 500 Loss 4.962 Acc 0.79 lr 0.00184 --- 211.44 ms/batch
+mean IoU:47.3
+IoU: 0.00 16.61 46.06 34.35 63.33 28.94 37.69 14.56 75.84 89.64 34.29 31.29  0.00 49.69 58.65 84.20 79.84  1.27 82.10 79.75 85.52 
+Best mIoU = 47.31%
+**** EVAL EPOCH 032 END****
+
+**** EPOCH 033 ****
+2024-01-21 02:17:12.405129
+Step 050 Loss 5.877 Acc 0.76 lr 0.00175 --- 209.81 ms/batch
+Step 100 Loss 4.916 Acc 0.78 lr 0.00175 --- 211.22 ms/batch
+Step 150 Loss 4.637 Acc 0.81 lr 0.00175 --- 209.95 ms/batch
+Step 200 Loss 5.120 Acc 0.77 lr 0.00175 --- 213.33 ms/batch
+Step 250 Loss 5.195 Acc 0.78 lr 0.00175 --- 213.13 ms/batch
+Step 300 Loss 5.112 Acc 0.79 lr 0.00175 --- 208.45 ms/batch
+Step 350 Loss 4.556 Acc 0.78 lr 0.00175 --- 211.56 ms/batch
+Step 400 Loss 4.727 Acc 0.79 lr 0.00175 --- 216.21 ms/batch
+Step 450 Loss 5.115 Acc 0.80 lr 0.00175 --- 210.65 ms/batch
+Step 500 Loss 4.988 Acc 0.78 lr 0.00175 --- 209.12 ms/batch
+mean IoU:47.2
+IoU: 0.00 16.65 42.71 44.07 59.59 27.80 25.86 20.97 77.65 90.33 35.28 31.61  0.00 48.08 51.47 83.69 79.69  3.93 82.21 82.74 86.52 
+Best mIoU = 47.31%
+**** EVAL EPOCH 033 END****
+
+**** EPOCH 034 ****
+2024-01-21 02:23:15.696514
+Step 050 Loss 4.901 Acc 0.80 lr 0.00166 --- 211.33 ms/batch
+Step 100 Loss 4.468 Acc 0.81 lr 0.00166 --- 215.37 ms/batch
+Step 150 Loss 5.416 Acc 0.77 lr 0.00166 --- 214.44 ms/batch
+Step 200 Loss 5.041 Acc 0.79 lr 0.00166 --- 215.04 ms/batch
+Step 250 Loss 5.139 Acc 0.79 lr 0.00166 --- 211.12 ms/batch
+Step 300 Loss 5.373 Acc 0.76 lr 0.00166 --- 212.09 ms/batch
+Step 350 Loss 4.696 Acc 0.79 lr 0.00166 --- 216.40 ms/batch
+Step 400 Loss 5.036 Acc 0.78 lr 0.00166 --- 209.51 ms/batch
+Step 450 Loss 4.750 Acc 0.79 lr 0.00166 --- 210.28 ms/batch
+Step 500 Loss 5.532 Acc 0.78 lr 0.00166 --- 211.41 ms/batch
+mean IoU:48.4
+IoU: 0.00 16.57 45.94 52.70 61.80 26.42 39.27 18.44 76.96 89.90 35.16 32.05  0.00 49.26 57.82 85.87 82.21  0.15 84.30 77.09 84.74 
+Best mIoU = 48.41%
+**** EVAL EPOCH 034 END****
+
+**** EPOCH 035 ****
+2024-01-21 02:29:21.241604
+Step 050 Loss 4.909 Acc 0.80 lr 0.00158 --- 209.62 ms/batch
+Step 100 Loss 4.986 Acc 0.79 lr 0.00158 --- 211.40 ms/batch
+Step 150 Loss 4.589 Acc 0.80 lr 0.00158 --- 210.83 ms/batch
+Step 200 Loss 5.338 Acc 0.77 lr 0.00158 --- 208.92 ms/batch
+Step 250 Loss 4.405 Acc 0.80 lr 0.00158 --- 212.06 ms/batch
+Step 300 Loss 5.286 Acc 0.79 lr 0.00158 --- 212.79 ms/batch
+Step 350 Loss 4.954 Acc 0.79 lr 0.00158 --- 211.06 ms/batch
+Step 400 Loss 4.693 Acc 0.80 lr 0.00158 --- 208.92 ms/batch
+Step 450 Loss 4.553 Acc 0.81 lr 0.00158 --- 211.43 ms/batch
+Step 500 Loss 4.549 Acc 0.80 lr 0.00158 --- 212.92 ms/batch
+mean IoU:50.6
+IoU: 0.00 17.75 46.77 56.70 63.81 30.89 53.92 19.67 79.25 90.83 36.84 32.20  0.00 51.85 62.88 83.63 81.39  2.40 83.50 80.08 87.24 
+Best mIoU = 50.55%
+**** EVAL EPOCH 035 END****
+
+**** EPOCH 036 ****
+2024-01-21 02:35:25.265163
+Step 050 Loss 4.759 Acc 0.81 lr 0.00150 --- 208.63 ms/batch
+Step 100 Loss 4.824 Acc 0.79 lr 0.00150 --- 216.85 ms/batch
+Step 150 Loss 4.489 Acc 0.80 lr 0.00150 --- 212.14 ms/batch
+Step 200 Loss 5.019 Acc 0.79 lr 0.00150 --- 210.96 ms/batch
+Step 250 Loss 4.042 Acc 0.82 lr 0.00150 --- 212.87 ms/batch
+Step 300 Loss 5.113 Acc 0.80 lr 0.00150 --- 208.47 ms/batch
+Step 350 Loss 4.850 Acc 0.80 lr 0.00150 --- 207.65 ms/batch
+Step 400 Loss 4.692 Acc 0.80 lr 0.00150 --- 208.99 ms/batch
+Step 450 Loss 4.419 Acc 0.81 lr 0.00150 --- 208.83 ms/batch
+Step 500 Loss 5.045 Acc 0.78 lr 0.00150 --- 210.97 ms/batch
+mean IoU:50.6
+IoU: 0.00 18.85 47.58 59.10 65.03 31.04 41.91 17.69 80.11 90.82 37.75 32.28  0.00 50.65 60.00 87.45 82.32  2.37 85.77 85.06 86.24 
+Best mIoU = 50.57%
+**** EVAL EPOCH 036 END****
+
+**** EPOCH 037 ****
+2024-01-21 02:41:28.758773
+Step 050 Loss 4.906 Acc 0.80 lr 0.00142 --- 209.76 ms/batch
+Step 100 Loss 4.432 Acc 0.81 lr 0.00142 --- 209.30 ms/batch
+Step 150 Loss 4.797 Acc 0.82 lr 0.00142 --- 212.39 ms/batch
+Step 200 Loss 4.254 Acc 0.81 lr 0.00142 --- 212.45 ms/batch
+Step 250 Loss 4.668 Acc 0.80 lr 0.00142 --- 212.91 ms/batch
+Step 300 Loss 4.947 Acc 0.80 lr 0.00142 --- 208.82 ms/batch
+Step 350 Loss 4.543 Acc 0.80 lr 0.00142 --- 212.67 ms/batch
+Step 400 Loss 4.652 Acc 0.80 lr 0.00142 --- 212.08 ms/batch
+Step 450 Loss 5.010 Acc 0.79 lr 0.00142 --- 212.89 ms/batch
+Step 500 Loss 4.636 Acc 0.80 lr 0.00142 --- 210.30 ms/batch
+mean IoU:49.9
+IoU: 0.00 19.51 51.32 35.74 63.84 32.53 54.21 20.95 79.52 90.90 38.97 32.92  0.00 53.20 60.37 84.18 80.32  0.11 80.51 82.53 86.46 
+Best mIoU = 50.57%
+**** EVAL EPOCH 037 END****
+
+**** EPOCH 038 ****
+2024-01-21 02:47:34.435180
+Step 050 Loss 4.547 Acc 0.81 lr 0.00135 --- 210.01 ms/batch
+Step 100 Loss 4.932 Acc 0.81 lr 0.00135 --- 209.85 ms/batch
+Step 150 Loss 5.662 Acc 0.78 lr 0.00135 --- 211.42 ms/batch
+Step 200 Loss 4.278 Acc 0.82 lr 0.00135 --- 212.08 ms/batch
+Step 250 Loss 4.323 Acc 0.82 lr 0.00135 --- 209.79 ms/batch
+Step 300 Loss 4.561 Acc 0.81 lr 0.00135 --- 209.35 ms/batch
+Step 350 Loss 5.290 Acc 0.79 lr 0.00135 --- 207.31 ms/batch
+Step 400 Loss 4.583 Acc 0.80 lr 0.00135 --- 212.98 ms/batch
+Step 450 Loss 4.290 Acc 0.81 lr 0.00135 --- 214.75 ms/batch
+Step 500 Loss 4.497 Acc 0.81 lr 0.00135 --- 212.59 ms/batch
+mean IoU:51.5
+IoU: 0.00 20.34 48.86 62.72 66.44 33.69 43.16 21.61 79.67 91.10 38.30 33.27  0.00 53.06 65.95 86.91 81.66  0.86 84.50 81.09 87.31 
+Best mIoU = 51.45%
+**** EVAL EPOCH 038 END****
+
+**** EPOCH 039 ****
+2024-01-21 02:53:39.388676
+Step 050 Loss 4.936 Acc 0.81 lr 0.00129 --- 211.80 ms/batch
+Step 100 Loss 4.623 Acc 0.79 lr 0.00129 --- 212.37 ms/batch
+Step 150 Loss 4.110 Acc 0.82 lr 0.00129 --- 213.96 ms/batch
+Step 200 Loss 4.411 Acc 0.81 lr 0.00129 --- 225.83 ms/batch
+Step 250 Loss 4.369 Acc 0.81 lr 0.00129 --- 211.67 ms/batch
+Step 300 Loss 5.763 Acc 0.79 lr 0.00129 --- 208.63 ms/batch
+Step 350 Loss 4.996 Acc 0.79 lr 0.00129 --- 216.02 ms/batch
+Step 400 Loss 4.406 Acc 0.81 lr 0.00129 --- 209.36 ms/batch
+Step 450 Loss 4.258 Acc 0.81 lr 0.00129 --- 209.80 ms/batch
+Step 500 Loss 4.220 Acc 0.83 lr 0.00129 --- 213.51 ms/batch
+mean IoU:50.5
+IoU: 0.00 19.31 46.42 38.68 66.62 37.94 54.18 20.19 79.09 90.90 38.42 33.44  0.01 54.00 63.26 85.44 82.42  0.84 82.25 81.15 86.43 
+Best mIoU = 51.45%
+**** EVAL EPOCH 039 END****
+
+**** EPOCH 040 ****
+2024-01-21 02:59:44.014448
+Step 050 Loss 5.649 Acc 0.77 lr 0.00122 --- 210.80 ms/batch
+Step 100 Loss 4.386 Acc 0.81 lr 0.00122 --- 209.40 ms/batch
+Step 150 Loss 4.285 Acc 0.82 lr 0.00122 --- 217.55 ms/batch
+Step 200 Loss 4.100 Acc 0.81 lr 0.00122 --- 208.86 ms/batch
+Step 250 Loss 4.753 Acc 0.82 lr 0.00122 --- 210.64 ms/batch
+Step 300 Loss 4.181 Acc 0.83 lr 0.00122 --- 214.70 ms/batch
+Step 350 Loss 4.109 Acc 0.82 lr 0.00122 --- 216.09 ms/batch
+Step 400 Loss 4.440 Acc 0.81 lr 0.00122 --- 212.46 ms/batch
+Step 450 Loss 4.060 Acc 0.83 lr 0.00122 --- 210.44 ms/batch
+Step 500 Loss 4.870 Acc 0.80 lr 0.00122 --- 211.81 ms/batch
+mean IoU:51.9
+IoU: 0.00 21.37 49.39 51.66 67.95 38.23 43.84 26.39 80.70 91.49 40.89 34.17  0.00 52.91 62.30 87.03 83.47  1.35 85.20 83.39 87.39 
+Best mIoU = 51.86%
+**** EVAL EPOCH 040 END****
+
+**** EPOCH 041 ****
+2024-01-21 03:05:48.759353
+Step 050 Loss 5.217 Acc 0.79 lr 0.00116 --- 213.93 ms/batch
+Step 100 Loss 4.377 Acc 0.81 lr 0.00116 --- 210.41 ms/batch
+Step 150 Loss 4.656 Acc 0.80 lr 0.00116 --- 212.04 ms/batch
+Step 200 Loss 4.163 Acc 0.83 lr 0.00116 --- 209.49 ms/batch
+Step 250 Loss 4.833 Acc 0.80 lr 0.00116 --- 209.77 ms/batch
+Step 300 Loss 4.045 Acc 0.83 lr 0.00116 --- 215.62 ms/batch
+Step 350 Loss 3.970 Acc 0.84 lr 0.00116 --- 207.50 ms/batch
+Step 400 Loss 4.095 Acc 0.82 lr 0.00116 --- 209.72 ms/batch
+Step 450 Loss 4.182 Acc 0.82 lr 0.00116 --- 212.50 ms/batch
+Step 500 Loss 5.087 Acc 0.80 lr 0.00116 --- 211.40 ms/batch
+mean IoU:52.6
+IoU: 0.00 21.70 48.98 55.55 68.23 40.48 43.49 26.29 80.22 91.43 40.57 33.72  0.00 55.19 66.24 85.46 84.93  1.62 86.90 84.32 90.30 
+Best mIoU = 52.65%
+**** EVAL EPOCH 041 END****
+
+**** EPOCH 042 ****
+2024-01-21 03:11:51.949910
+Step 050 Loss 4.446 Acc 0.82 lr 0.00110 --- 209.80 ms/batch
+Step 100 Loss 4.376 Acc 0.83 lr 0.00110 --- 210.44 ms/batch
+Step 150 Loss 4.565 Acc 0.82 lr 0.00110 --- 211.16 ms/batch
+Step 200 Loss 4.015 Acc 0.82 lr 0.00110 --- 217.79 ms/batch
+Step 250 Loss 4.236 Acc 0.82 lr 0.00110 --- 211.43 ms/batch
+Step 300 Loss 4.437 Acc 0.83 lr 0.00110 --- 214.36 ms/batch
+Step 350 Loss 4.492 Acc 0.82 lr 0.00110 --- 210.15 ms/batch
+Step 400 Loss 3.874 Acc 0.83 lr 0.00110 --- 211.95 ms/batch
+Step 450 Loss 4.681 Acc 0.81 lr 0.00110 --- 215.53 ms/batch
+Step 500 Loss 4.533 Acc 0.81 lr 0.00110 --- 213.97 ms/batch
+mean IoU:53.3
+IoU: 0.00 22.59 47.77 61.70 69.01 39.03 49.39 21.50 81.71 91.51 42.74 34.91  0.00 56.28 65.91 88.80 83.30  1.42 85.90 86.82 88.44 
+Best mIoU = 53.27%
+**** EVAL EPOCH 042 END****
+
+**** EPOCH 043 ****
+2024-01-21 03:17:55.675225
+Step 050 Loss 4.498 Acc 0.81 lr 0.00105 --- 215.81 ms/batch
+Step 100 Loss 4.349 Acc 0.83 lr 0.00105 --- 212.46 ms/batch
+Step 150 Loss 3.758 Acc 0.84 lr 0.00105 --- 210.30 ms/batch
+Step 200 Loss 4.218 Acc 0.82 lr 0.00105 --- 214.05 ms/batch
+Step 250 Loss 4.644 Acc 0.81 lr 0.00105 --- 211.58 ms/batch
+Step 300 Loss 3.875 Acc 0.84 lr 0.00105 --- 210.48 ms/batch
+Step 350 Loss 4.212 Acc 0.82 lr 0.00105 --- 217.03 ms/batch
+Step 400 Loss 4.687 Acc 0.81 lr 0.00105 --- 210.07 ms/batch
+Step 450 Loss 4.072 Acc 0.82 lr 0.00105 --- 210.69 ms/batch
+Step 500 Loss 4.655 Acc 0.81 lr 0.00105 --- 209.31 ms/batch
+mean IoU:53.0
+IoU: 0.00 20.71 47.46 53.56 68.97 43.46 46.64 27.03 81.34 91.31 42.42 35.17  0.00 53.41 67.35 87.62 83.49  4.43 80.61 86.78 90.33 
+Best mIoU = 53.27%
+**** EVAL EPOCH 043 END****
+
+**** EPOCH 044 ****
+2024-01-21 03:24:00.618203
+Step 050 Loss 4.043 Acc 0.83 lr 0.00099 --- 212.76 ms/batch
+Step 100 Loss 4.359 Acc 0.83 lr 0.00099 --- 214.66 ms/batch
+Step 150 Loss 4.677 Acc 0.80 lr 0.00099 --- 228.48 ms/batch
+Step 200 Loss 4.365 Acc 0.81 lr 0.00099 --- 209.77 ms/batch
+Step 250 Loss 4.263 Acc 0.83 lr 0.00099 --- 213.28 ms/batch
+Step 300 Loss 4.576 Acc 0.82 lr 0.00099 --- 216.32 ms/batch
+Step 350 Loss 4.352 Acc 0.82 lr 0.00099 --- 213.71 ms/batch
+Step 400 Loss 3.823 Acc 0.83 lr 0.00099 --- 210.99 ms/batch
+Step 450 Loss 4.219 Acc 0.82 lr 0.00099 --- 210.19 ms/batch
+Step 500 Loss 4.490 Acc 0.82 lr 0.00099 --- 214.89 ms/batch
+mean IoU:54.0
+IoU: 0.00 25.39 49.57 61.71 71.45 43.03 57.86 20.11 79.78 91.41 42.44 35.09  0.00 57.07 67.80 90.05 83.46  1.18 83.22 84.32 88.19 
+Best mIoU = 53.96%
+**** EVAL EPOCH 044 END****
+
+**** EPOCH 045 ****
+2024-01-21 03:30:05.008262
+Step 050 Loss 3.759 Acc 0.84 lr 0.00094 --- 214.97 ms/batch
+Step 100 Loss 4.138 Acc 0.84 lr 0.00094 --- 223.47 ms/batch
+Step 150 Loss 4.240 Acc 0.83 lr 0.00094 --- 213.33 ms/batch
+Step 200 Loss 4.212 Acc 0.82 lr 0.00094 --- 210.18 ms/batch
+Step 250 Loss 4.355 Acc 0.83 lr 0.00094 --- 212.38 ms/batch
+Step 300 Loss 4.013 Acc 0.82 lr 0.00094 --- 210.45 ms/batch
+Step 350 Loss 4.229 Acc 0.84 lr 0.00094 --- 210.13 ms/batch
+Step 400 Loss 4.231 Acc 0.83 lr 0.00094 --- 209.01 ms/batch
+Step 450 Loss 4.355 Acc 0.83 lr 0.00094 --- 208.20 ms/batch
+Step 500 Loss 3.952 Acc 0.84 lr 0.00094 --- 216.59 ms/batch
+mean IoU:54.9
+IoU: 0.00 22.70 55.15 53.19 73.31 48.43 62.77 22.27 83.25 91.90 43.39 35.40  0.01 57.66 69.92 88.87 82.16  3.51 84.78 84.95 88.95 
+Best mIoU = 54.88%
+**** EVAL EPOCH 045 END****
+
+**** EPOCH 046 ****
+2024-01-21 03:36:09.233135
+Step 050 Loss 4.412 Acc 0.83 lr 0.00090 --- 211.27 ms/batch
+Step 100 Loss 3.810 Acc 0.83 lr 0.00090 --- 209.17 ms/batch
+Step 150 Loss 4.187 Acc 0.84 lr 0.00090 --- 212.73 ms/batch
+Step 200 Loss 4.670 Acc 0.82 lr 0.00090 --- 219.56 ms/batch
+Step 250 Loss 3.481 Acc 0.84 lr 0.00090 --- 210.23 ms/batch
+Step 300 Loss 4.170 Acc 0.83 lr 0.00090 --- 210.10 ms/batch
+Step 350 Loss 3.842 Acc 0.82 lr 0.00090 --- 210.36 ms/batch
+Step 400 Loss 4.591 Acc 0.81 lr 0.00090 --- 209.51 ms/batch
+Step 450 Loss 4.216 Acc 0.83 lr 0.00090 --- 211.77 ms/batch
+Step 500 Loss 4.108 Acc 0.83 lr 0.00090 --- 212.92 ms/batch
+mean IoU:54.2
+IoU: 0.00 24.07 49.02 60.08 72.28 47.93 48.15 21.43 81.54 91.81 44.14 35.99  0.05 56.61 68.90 84.28 84.50  5.13 86.67 85.70 90.59 
+Best mIoU = 54.88%
+**** EVAL EPOCH 046 END****
+
+**** EPOCH 047 ****
+2024-01-21 03:42:15.227591
+Step 050 Loss 4.137 Acc 0.83 lr 0.00085 --- 208.85 ms/batch
+Step 100 Loss 4.234 Acc 0.84 lr 0.00085 --- 209.87 ms/batch
+Step 150 Loss 4.065 Acc 0.82 lr 0.00085 --- 209.31 ms/batch
+Step 200 Loss 4.671 Acc 0.81 lr 0.00085 --- 213.86 ms/batch
+Step 250 Loss 4.036 Acc 0.84 lr 0.00085 --- 229.61 ms/batch
+Step 300 Loss 3.764 Acc 0.84 lr 0.00085 --- 210.09 ms/batch
+Step 350 Loss 3.744 Acc 0.84 lr 0.00085 --- 212.62 ms/batch
+Step 400 Loss 4.743 Acc 0.81 lr 0.00085 --- 211.50 ms/batch
+Step 450 Loss 3.874 Acc 0.84 lr 0.00085 --- 210.63 ms/batch
+Step 500 Loss 4.441 Acc 0.83 lr 0.00085 --- 208.05 ms/batch
+mean IoU:55.4
+IoU: 0.00 23.84 52.06 67.45 73.95 48.11 60.00 30.82 82.45 91.77 42.92 35.99  0.00 58.41 66.86 89.79 82.48  1.97 84.20 83.56 86.99 
+Best mIoU = 55.41%
+**** EVAL EPOCH 047 END****
+
+**** EPOCH 048 ****
+2024-01-21 03:48:17.890956
+Step 050 Loss 4.645 Acc 0.80 lr 0.00081 --- 207.94 ms/batch
+Step 100 Loss 4.143 Acc 0.83 lr 0.00081 --- 210.33 ms/batch
+Step 150 Loss 3.413 Acc 0.85 lr 0.00081 --- 212.03 ms/batch
+Step 200 Loss 3.941 Acc 0.84 lr 0.00081 --- 208.83 ms/batch
+Step 250 Loss 4.034 Acc 0.83 lr 0.00081 --- 209.62 ms/batch
+Step 300 Loss 4.204 Acc 0.83 lr 0.00081 --- 208.82 ms/batch
+Step 350 Loss 3.839 Acc 0.83 lr 0.00081 --- 212.33 ms/batch
+Step 400 Loss 4.015 Acc 0.84 lr 0.00081 --- 207.82 ms/batch
+Step 450 Loss 3.384 Acc 0.86 lr 0.00081 --- 209.74 ms/batch
+Step 500 Loss 4.222 Acc 0.85 lr 0.00081 --- 210.31 ms/batch
+mean IoU:55.8
+IoU: 0.00 26.11 50.03 62.53 74.04 49.87 56.98 28.53 84.43 92.21 44.78 36.91  0.00 58.24 67.44 91.02 85.65  2.92 87.28 84.78 88.75 
+Best mIoU = 55.83%
+**** EVAL EPOCH 048 END****
+
+**** EPOCH 049 ****
+2024-01-21 03:54:23.082597
+Step 050 Loss 4.451 Acc 0.82 lr 0.00077 --- 210.47 ms/batch
+Step 100 Loss 4.140 Acc 0.83 lr 0.00077 --- 213.21 ms/batch
+Step 150 Loss 3.649 Acc 0.85 lr 0.00077 --- 213.08 ms/batch
+Step 200 Loss 3.403 Acc 0.86 lr 0.00077 --- 209.62 ms/batch
+Step 250 Loss 3.714 Acc 0.84 lr 0.00077 --- 211.46 ms/batch
+Step 300 Loss 4.272 Acc 0.82 lr 0.00077 --- 214.16 ms/batch
+Step 350 Loss 4.449 Acc 0.84 lr 0.00077 --- 211.10 ms/batch
+Step 400 Loss 4.074 Acc 0.83 lr 0.00077 --- 210.92 ms/batch
+Step 450 Loss 3.982 Acc 0.84 lr 0.00077 --- 209.21 ms/batch
+Step 500 Loss 3.999 Acc 0.85 lr 0.00077 --- 213.44 ms/batch
+mean IoU:55.7
+IoU: 0.00 24.10 54.14 61.34 75.26 50.07 44.00 26.74 83.81 92.43 45.61 36.24  0.00 59.27 74.99 90.01 85.38  3.16 85.60 87.17 90.40 
+Best mIoU = 55.83%
+**** EVAL EPOCH 049 END****
+
+**** EPOCH 050 ****
+2024-01-21 04:00:27.521723
+Step 050 Loss 4.842 Acc 0.81 lr 0.00073 --- 212.86 ms/batch
+Step 100 Loss 3.554 Acc 0.85 lr 0.00073 --- 208.13 ms/batch
+Step 150 Loss 3.544 Acc 0.85 lr 0.00073 --- 211.51 ms/batch
+Step 200 Loss 4.341 Acc 0.83 lr 0.00073 --- 215.20 ms/batch
+Step 250 Loss 3.885 Acc 0.85 lr 0.00073 --- 210.55 ms/batch
+Step 300 Loss 4.143 Acc 0.83 lr 0.00073 --- 210.86 ms/batch
+Step 350 Loss 3.476 Acc 0.86 lr 0.00073 --- 213.05 ms/batch
+Step 400 Loss 3.480 Acc 0.86 lr 0.00073 --- 208.59 ms/batch
+Step 450 Loss 4.209 Acc 0.83 lr 0.00073 --- 210.54 ms/batch
+Step 500 Loss 3.760 Acc 0.85 lr 0.00073 --- 214.81 ms/batch
+mean IoU:56.6
+IoU: 0.00 24.14 51.27 72.24 72.85 48.69 56.04 26.81 84.46 92.70 46.08 37.02  0.00 60.55 71.99 87.70 84.87  8.25 86.72 86.11 90.20 
+Best mIoU = 56.60%
+**** EVAL EPOCH 050 END****
+
+**** EPOCH 051 ****
+2024-01-21 04:06:32.527510
+Step 050 Loss 4.101 Acc 0.83 lr 0.00069 --- 210.37 ms/batch
+Step 100 Loss 3.522 Acc 0.86 lr 0.00069 --- 210.50 ms/batch
+Step 150 Loss 4.101 Acc 0.84 lr 0.00069 --- 211.64 ms/batch
+Step 200 Loss 3.846 Acc 0.83 lr 0.00069 --- 213.16 ms/batch
+Step 250 Loss 4.107 Acc 0.83 lr 0.00069 --- 211.68 ms/batch
+Step 300 Loss 4.123 Acc 0.84 lr 0.00069 --- 211.14 ms/batch
+Step 350 Loss 3.796 Acc 0.85 lr 0.00069 --- 210.83 ms/batch
+Step 400 Loss 3.822 Acc 0.85 lr 0.00069 --- 209.80 ms/batch
+Step 450 Loss 3.758 Acc 0.84 lr 0.00069 --- 212.84 ms/batch
+Step 500 Loss 3.532 Acc 0.85 lr 0.00069 --- 214.38 ms/batch
+mean IoU:57.2
+IoU: 0.00 24.52 53.18 70.85 74.77 51.13 59.32 29.55 83.32 92.52 46.80 36.83  0.00 59.37 73.59 86.98 87.22  7.77 87.05 85.56 90.73 
+Best mIoU = 57.19%
+**** EVAL EPOCH 051 END****
+
+**** EPOCH 052 ****
+2024-01-21 04:12:37.660944
+Step 050 Loss 4.000 Acc 0.84 lr 0.00066 --- 210.55 ms/batch
+Step 100 Loss 3.643 Acc 0.85 lr 0.00066 --- 211.09 ms/batch
+Step 150 Loss 4.142 Acc 0.83 lr 0.00066 --- 210.53 ms/batch
+Step 200 Loss 4.072 Acc 0.83 lr 0.00066 --- 211.32 ms/batch
+Step 250 Loss 3.963 Acc 0.84 lr 0.00066 --- 210.44 ms/batch
+Step 300 Loss 4.006 Acc 0.84 lr 0.00066 --- 211.78 ms/batch
+Step 350 Loss 3.598 Acc 0.85 lr 0.00066 --- 214.36 ms/batch
+Step 400 Loss 3.897 Acc 0.84 lr 0.00066 --- 212.53 ms/batch
+Step 450 Loss 3.655 Acc 0.85 lr 0.00066 --- 212.66 ms/batch
+Step 500 Loss 3.812 Acc 0.84 lr 0.00066 --- 209.43 ms/batch
+mean IoU:57.0
+IoU: 0.00 25.69 52.71 71.63 76.65 55.07 52.55 25.23 84.77 92.32 46.19 36.72  0.02 59.61 73.65 88.43 85.80  5.15 87.56 87.81 88.76 
+Best mIoU = 57.19%
+**** EVAL EPOCH 052 END****
+
+**** EPOCH 053 ****
+2024-01-21 04:18:42.632527
+Step 050 Loss 4.063 Acc 0.83 lr 0.00063 --- 213.08 ms/batch
+Step 100 Loss 3.318 Acc 0.86 lr 0.00063 --- 217.81 ms/batch
+Step 150 Loss 3.501 Acc 0.85 lr 0.00063 --- 212.88 ms/batch
+Step 200 Loss 4.276 Acc 0.84 lr 0.00063 --- 212.34 ms/batch
+Step 250 Loss 3.779 Acc 0.85 lr 0.00063 --- 209.78 ms/batch
+Step 300 Loss 4.015 Acc 0.84 lr 0.00063 --- 213.63 ms/batch
+Step 350 Loss 4.055 Acc 0.83 lr 0.00063 --- 213.64 ms/batch
+Step 400 Loss 4.081 Acc 0.84 lr 0.00063 --- 212.28 ms/batch
+Step 450 Loss 3.944 Acc 0.84 lr 0.00063 --- 209.61 ms/batch
+Step 500 Loss 3.806 Acc 0.85 lr 0.00063 --- 210.63 ms/batch
+mean IoU:56.7
+IoU: 0.00 24.19 53.24 53.92 74.50 54.38 69.03 26.59 83.53 92.65 46.28 36.64  0.01 60.45 75.00 86.90 84.99  6.46 83.24 86.82 91.35 
+Best mIoU = 57.19%
+**** EVAL EPOCH 053 END****
+
+**** EPOCH 054 ****
+2024-01-21 04:24:48.266096
+Step 050 Loss 3.744 Acc 0.85 lr 0.00060 --- 210.68 ms/batch
+Step 100 Loss 3.601 Acc 0.84 lr 0.00060 --- 211.20 ms/batch
+Step 150 Loss 4.349 Acc 0.82 lr 0.00060 --- 210.06 ms/batch
+Step 200 Loss 4.029 Acc 0.84 lr 0.00060 --- 208.97 ms/batch
+Step 250 Loss 3.413 Acc 0.86 lr 0.00060 --- 214.62 ms/batch
+Step 300 Loss 3.662 Acc 0.84 lr 0.00060 --- 209.35 ms/batch
+Step 350 Loss 3.990 Acc 0.84 lr 0.00060 --- 211.29 ms/batch
+Step 400 Loss 3.475 Acc 0.86 lr 0.00060 --- 209.16 ms/batch
+Step 450 Loss 4.405 Acc 0.83 lr 0.00060 --- 211.09 ms/batch
+Step 500 Loss 3.441 Acc 0.86 lr 0.00060 --- 211.57 ms/batch
+mean IoU:57.6
+IoU: 0.00 28.32 52.42 68.97 76.61 53.20 51.48 37.09 83.43 92.65 47.43 37.99  0.01 59.37 74.75 91.64 84.74  1.74 87.24 87.74 92.09 
+Best mIoU = 57.57%
+**** EVAL EPOCH 054 END****
+
+**** EPOCH 055 ****
+2024-01-21 04:30:52.189157
+Step 050 Loss 3.710 Acc 0.85 lr 0.00057 --- 210.70 ms/batch
+Step 100 Loss 4.431 Acc 0.82 lr 0.00057 --- 210.86 ms/batch
+Step 150 Loss 4.048 Acc 0.84 lr 0.00057 --- 211.26 ms/batch
+Step 200 Loss 3.997 Acc 0.84 lr 0.00057 --- 212.64 ms/batch
+Step 250 Loss 3.635 Acc 0.86 lr 0.00057 --- 211.52 ms/batch
+Step 300 Loss 3.629 Acc 0.86 lr 0.00057 --- 209.62 ms/batch
+Step 350 Loss 3.712 Acc 0.85 lr 0.00057 --- 211.94 ms/batch
+Step 400 Loss 3.885 Acc 0.85 lr 0.00057 --- 213.74 ms/batch
+Step 450 Loss 3.918 Acc 0.84 lr 0.00057 --- 215.08 ms/batch
+Step 500 Loss 3.411 Acc 0.85 lr 0.00057 --- 209.99 ms/batch
+mean IoU:56.9
+IoU: 0.00 24.71 53.98 51.92 76.45 55.64 64.82 27.56 84.34 92.65 46.90 38.21  0.03 60.42 70.95 89.30 85.22  6.19 87.45 86.88 92.24 
+Best mIoU = 57.57%
+**** EVAL EPOCH 055 END****
+
+**** EPOCH 056 ****
+2024-01-21 04:36:58.860543
+Step 050 Loss 4.125 Acc 0.83 lr 0.00054 --- 209.43 ms/batch
+Step 100 Loss 3.382 Acc 0.86 lr 0.00054 --- 213.96 ms/batch
+Step 150 Loss 3.507 Acc 0.86 lr 0.00054 --- 209.76 ms/batch
+Step 200 Loss 3.223 Acc 0.87 lr 0.00054 --- 210.33 ms/batch
+Step 250 Loss 4.266 Acc 0.83 lr 0.00054 --- 208.75 ms/batch
+Step 300 Loss 3.511 Acc 0.86 lr 0.00054 --- 209.25 ms/batch
+Step 350 Loss 4.202 Acc 0.84 lr 0.00054 --- 209.20 ms/batch
+Step 400 Loss 3.481 Acc 0.85 lr 0.00054 --- 210.89 ms/batch
+Step 450 Loss 3.721 Acc 0.85 lr 0.00054 --- 212.91 ms/batch
+Step 500 Loss 3.737 Acc 0.85 lr 0.00054 --- 210.78 ms/batch
+mean IoU:57.9
+IoU: 0.00 24.21 54.89 61.74 77.78 57.81 56.43 34.70 86.29 93.03 47.43 37.93  0.01 61.75 74.42 89.61 86.17  4.21 86.69 89.66 90.19 
+Best mIoU = 57.86%
+**** EVAL EPOCH 056 END****
+
+**** EPOCH 057 ****
+2024-01-21 04:43:02.438185
+Step 050 Loss 3.751 Acc 0.83 lr 0.00051 --- 210.89 ms/batch
+Step 100 Loss 3.495 Acc 0.86 lr 0.00051 --- 210.87 ms/batch
+Step 150 Loss 3.430 Acc 0.86 lr 0.00051 --- 214.90 ms/batch
+Step 200 Loss 3.618 Acc 0.86 lr 0.00051 --- 228.26 ms/batch
+Step 250 Loss 3.614 Acc 0.85 lr 0.00051 --- 210.34 ms/batch
+Step 300 Loss 3.314 Acc 0.86 lr 0.00051 --- 212.71 ms/batch
+Step 350 Loss 3.191 Acc 0.87 lr 0.00051 --- 215.63 ms/batch
+Step 400 Loss 4.389 Acc 0.83 lr 0.00051 --- 215.58 ms/batch
+Step 450 Loss 3.719 Acc 0.85 lr 0.00051 --- 210.96 ms/batch
+Step 500 Loss 3.448 Acc 0.85 lr 0.00051 --- 208.99 ms/batch
+mean IoU:58.5
+IoU: 0.00 25.86 55.86 57.71 78.37 58.51 72.93 28.84 86.19 92.92 48.77 37.98  0.02 62.12 77.47 89.40 85.16  5.73 87.52 84.03 92.41 
+Best mIoU = 58.47%
+**** EVAL EPOCH 057 END****
+
+**** EPOCH 058 ****
+2024-01-21 04:49:08.282197
+Step 050 Loss 4.497 Acc 0.82 lr 0.00048 --- 208.34 ms/batch
+Step 100 Loss 3.471 Acc 0.86 lr 0.00048 --- 209.66 ms/batch
+Step 150 Loss 4.046 Acc 0.84 lr 0.00048 --- 214.01 ms/batch
+Step 200 Loss 3.601 Acc 0.85 lr 0.00048 --- 213.59 ms/batch
+Step 250 Loss 3.564 Acc 0.86 lr 0.00048 --- 212.29 ms/batch
+Step 300 Loss 3.461 Acc 0.86 lr 0.00048 --- 211.41 ms/batch
+Step 350 Loss 3.641 Acc 0.86 lr 0.00048 --- 210.94 ms/batch
+Step 400 Loss 4.105 Acc 0.83 lr 0.00048 --- 210.22 ms/batch
+Step 450 Loss 3.734 Acc 0.86 lr 0.00048 --- 210.25 ms/batch
+Step 500 Loss 3.870 Acc 0.85 lr 0.00048 --- 211.98 ms/batch
+mean IoU:57.3
+IoU: 0.00 27.06 51.76 59.53 75.42 53.83 53.45 33.86 86.53 92.81 48.14 38.30  0.00 61.38 71.80 90.64 87.07  6.39 87.72 86.98 90.45 
+Best mIoU = 58.47%
+**** EVAL EPOCH 058 END****
+
+**** EPOCH 059 ****
+2024-01-21 04:55:13.990366
+Step 050 Loss 4.181 Acc 0.84 lr 0.00046 --- 210.36 ms/batch
+Step 100 Loss 4.171 Acc 0.84 lr 0.00046 --- 213.53 ms/batch
+Step 150 Loss 3.451 Acc 0.87 lr 0.00046 --- 213.09 ms/batch
+Step 200 Loss 3.129 Acc 0.87 lr 0.00046 --- 210.23 ms/batch
+Step 250 Loss 3.873 Acc 0.85 lr 0.00046 --- 216.30 ms/batch
+Step 300 Loss 3.277 Acc 0.86 lr 0.00046 --- 209.68 ms/batch
+Step 350 Loss 3.584 Acc 0.85 lr 0.00046 --- 210.00 ms/batch
+Step 400 Loss 3.277 Acc 0.86 lr 0.00046 --- 212.10 ms/batch
+Step 450 Loss 3.207 Acc 0.87 lr 0.00046 --- 210.85 ms/batch
+Step 500 Loss 4.110 Acc 0.84 lr 0.00046 --- 209.65 ms/batch
+mean IoU:59.2
+IoU: 0.00 25.95 56.48 76.86 78.47 57.69 68.36 28.42 86.04 93.26 48.52 38.37  0.01 63.20 76.18 90.76 85.65  4.65 86.86 86.99 90.76 
+Best mIoU = 59.21%
+**** EVAL EPOCH 059 END****
+
+**** EPOCH 060 ****
+2024-01-21 05:01:17.438915
+Step 050 Loss 3.689 Acc 0.85 lr 0.00044 --- 210.51 ms/batch
+Step 100 Loss 3.490 Acc 0.87 lr 0.00044 --- 212.31 ms/batch
+Step 150 Loss 3.627 Acc 0.86 lr 0.00044 --- 211.92 ms/batch
+Step 200 Loss 3.139 Acc 0.87 lr 0.00044 --- 209.83 ms/batch
+Step 250 Loss 3.512 Acc 0.85 lr 0.00044 --- 211.90 ms/batch
+Step 300 Loss 3.625 Acc 0.85 lr 0.00044 --- 210.77 ms/batch
+Step 350 Loss 3.867 Acc 0.85 lr 0.00044 --- 209.38 ms/batch
+Step 400 Loss 3.629 Acc 0.85 lr 0.00044 --- 210.27 ms/batch
+Step 450 Loss 3.568 Acc 0.85 lr 0.00044 --- 211.29 ms/batch
+Step 500 Loss 3.761 Acc 0.85 lr 0.00044 --- 212.74 ms/batch
+mean IoU:60.3
+IoU: 0.00 27.54 53.58 81.03 78.70 58.65 72.80 35.47 86.54 93.05 49.60 38.99  0.03 63.72 75.59 88.70 86.82  8.99 87.20 87.45 91.00 
+Best mIoU = 60.26%
+**** EVAL EPOCH 060 END****
+
+**** EPOCH 061 ****
+2024-01-21 05:07:21.450073
+Step 050 Loss 3.542 Acc 0.87 lr 0.00042 --- 210.45 ms/batch
+Step 100 Loss 3.491 Acc 0.85 lr 0.00042 --- 209.57 ms/batch
+Step 150 Loss 3.371 Acc 0.86 lr 0.00042 --- 213.76 ms/batch
+Step 200 Loss 3.493 Acc 0.86 lr 0.00042 --- 211.02 ms/batch
+Step 250 Loss 3.622 Acc 0.85 lr 0.00042 --- 210.10 ms/batch
+Step 300 Loss 3.795 Acc 0.84 lr 0.00042 --- 209.10 ms/batch
+Step 350 Loss 3.708 Acc 0.85 lr 0.00042 --- 210.27 ms/batch
+Step 400 Loss 3.168 Acc 0.87 lr 0.00042 --- 211.63 ms/batch
+Step 450 Loss 4.036 Acc 0.84 lr 0.00042 --- 212.31 ms/batch
+Step 500 Loss 4.301 Acc 0.84 lr 0.00042 --- 211.87 ms/batch
+mean IoU:58.3
+IoU: 0.00 26.25 50.85 58.00 79.63 60.51 61.05 35.18 84.93 92.76 49.62 38.42  0.03 62.88 75.33 88.42 87.15  5.75 87.84 89.08 91.23 
+Best mIoU = 60.26%
+**** EVAL EPOCH 061 END****
+
+**** EPOCH 062 ****
+2024-01-21 05:13:26.853095
+Step 050 Loss 3.503 Acc 0.86 lr 0.00039 --- 213.00 ms/batch
+Step 100 Loss 3.621 Acc 0.85 lr 0.00039 --- 210.03 ms/batch
+Step 150 Loss 3.973 Acc 0.84 lr 0.00039 --- 250.53 ms/batch
+Step 200 Loss 3.956 Acc 0.85 lr 0.00039 --- 206.41 ms/batch
+Step 250 Loss 3.100 Acc 0.87 lr 0.00039 --- 210.99 ms/batch
+Step 300 Loss 3.718 Acc 0.85 lr 0.00039 --- 210.51 ms/batch
+Step 350 Loss 3.505 Acc 0.86 lr 0.00039 --- 214.44 ms/batch
+Step 400 Loss 3.664 Acc 0.85 lr 0.00039 --- 208.90 ms/batch
+Step 450 Loss 3.965 Acc 0.85 lr 0.00039 --- 210.26 ms/batch
+Step 500 Loss 3.380 Acc 0.86 lr 0.00039 --- 233.23 ms/batch
+mean IoU:59.2
+IoU: 0.00 25.43 54.91 69.38 79.16 61.38 59.44 34.83 86.00 92.91 48.81 38.16  0.01 63.33 76.48 91.60 86.96  6.65 86.84 88.02 92.57 
+Best mIoU = 60.26%
+**** EVAL EPOCH 062 END****
+
+**** EPOCH 063 ****
+2024-01-21 05:19:31.734630
+Step 050 Loss 3.768 Acc 0.85 lr 0.00038 --- 212.74 ms/batch
+Step 100 Loss 3.775 Acc 0.85 lr 0.00038 --- 209.41 ms/batch
+Step 150 Loss 3.244 Acc 0.87 lr 0.00038 --- 208.35 ms/batch
+Step 200 Loss 3.630 Acc 0.86 lr 0.00038 --- 212.92 ms/batch
+Step 250 Loss 3.565 Acc 0.85 lr 0.00038 --- 215.46 ms/batch
+Step 300 Loss 2.948 Acc 0.88 lr 0.00038 --- 214.26 ms/batch
+Step 350 Loss 3.319 Acc 0.86 lr 0.00038 --- 210.99 ms/batch
+Step 400 Loss 3.946 Acc 0.85 lr 0.00038 --- 209.43 ms/batch
+Step 450 Loss 3.762 Acc 0.85 lr 0.00038 --- 226.08 ms/batch
+Step 500 Loss 3.827 Acc 0.85 lr 0.00038 --- 210.68 ms/batch
+mean IoU:58.8
+IoU: 0.00 27.67 52.38 59.05 79.24 58.33 61.66 30.35 85.90 93.01 50.28 39.40  0.01 63.46 77.26 90.24 86.88 13.15 87.95 87.61 90.40 
+Best mIoU = 60.26%
+**** EVAL EPOCH 063 END****
+
+**** EPOCH 064 ****
+2024-01-21 05:25:35.042938
+Step 050 Loss 3.559 Acc 0.87 lr 0.00036 --- 211.25 ms/batch
+Step 100 Loss 3.264 Acc 0.86 lr 0.00036 --- 212.06 ms/batch
+Step 150 Loss 3.561 Acc 0.86 lr 0.00036 --- 212.80 ms/batch
+Step 200 Loss 3.409 Acc 0.86 lr 0.00036 --- 217.86 ms/batch
+Step 250 Loss 3.367 Acc 0.86 lr 0.00036 --- 209.70 ms/batch
+Step 300 Loss 3.624 Acc 0.86 lr 0.00036 --- 208.97 ms/batch
+Step 350 Loss 3.459 Acc 0.86 lr 0.00036 --- 211.21 ms/batch
+Step 400 Loss 3.995 Acc 0.84 lr 0.00036 --- 210.95 ms/batch
+Step 450 Loss 3.472 Acc 0.86 lr 0.00036 --- 213.53 ms/batch
+Step 500 Loss 3.612 Acc 0.86 lr 0.00036 --- 210.64 ms/batch
+mean IoU:58.7
+IoU: 0.00 28.80 55.00 57.48 79.38 58.57 55.07 38.01 86.42 93.08 50.73 39.77  0.03 63.99 75.59 91.52 86.89  6.78 87.57 86.09 91.45 
+Best mIoU = 60.26%
+**** EVAL EPOCH 064 END****
+
+**** EPOCH 065 ****
+2024-01-21 05:31:39.079118
+Step 050 Loss 3.712 Acc 0.85 lr 0.00034 --- 208.26 ms/batch
+Step 100 Loss 3.501 Acc 0.85 lr 0.00034 --- 211.16 ms/batch
+Step 150 Loss 3.635 Acc 0.86 lr 0.00034 --- 214.42 ms/batch
+Step 200 Loss 3.800 Acc 0.85 lr 0.00034 --- 212.86 ms/batch
+Step 250 Loss 3.068 Acc 0.87 lr 0.00034 --- 208.58 ms/batch
+Step 300 Loss 3.920 Acc 0.85 lr 0.00034 --- 211.08 ms/batch
+Step 350 Loss 3.363 Acc 0.86 lr 0.00034 --- 211.83 ms/batch
+Step 400 Loss 3.620 Acc 0.85 lr 0.00034 --- 210.31 ms/batch
+Step 450 Loss 3.473 Acc 0.86 lr 0.00034 --- 211.13 ms/batch
+Step 500 Loss 3.019 Acc 0.88 lr 0.00034 --- 210.96 ms/batch
+mean IoU:59.1
+IoU: 0.00 27.69 56.37 60.95 79.14 59.19 56.05 34.65 85.95 93.25 50.38 39.51  0.20 63.81 77.30 89.80 86.84  9.31 88.81 88.42 93.82 
+Best mIoU = 60.26%
+**** EVAL EPOCH 065 END****
+
+**** EPOCH 066 ****
+2024-01-21 05:37:44.477434
+Step 050 Loss 3.943 Acc 0.84 lr 0.00032 --- 210.96 ms/batch
+Step 100 Loss 3.613 Acc 0.86 lr 0.00032 --- 212.13 ms/batch
+Step 150 Loss 4.006 Acc 0.85 lr 0.00032 --- 208.69 ms/batch
+Step 200 Loss 3.546 Acc 0.86 lr 0.00032 --- 212.24 ms/batch
+Step 250 Loss 3.354 Acc 0.87 lr 0.00032 --- 212.39 ms/batch
+Step 300 Loss 2.954 Acc 0.88 lr 0.00032 --- 210.41 ms/batch
+Step 350 Loss 3.326 Acc 0.86 lr 0.00032 --- 214.22 ms/batch
+Step 400 Loss 3.590 Acc 0.86 lr 0.00032 --- 209.31 ms/batch
+Step 450 Loss 3.485 Acc 0.86 lr 0.00032 --- 210.89 ms/batch
+Step 500 Loss 3.637 Acc 0.86 lr 0.00032 --- 212.85 ms/batch
+mean IoU:61.2
+IoU: 0.00 27.38 55.63 80.61 79.19 62.31 74.79 30.80 86.65 93.20 51.95 39.43  0.04 66.09 78.81 89.77 87.26 11.09 88.27 89.17 92.41 
+Best mIoU = 61.18%
+**** EVAL EPOCH 066 END****
+
+**** EPOCH 067 ****
+2024-01-21 05:43:49.662413
+Step 050 Loss 3.738 Acc 0.84 lr 0.00031 --- 213.51 ms/batch
+Step 100 Loss 3.645 Acc 0.85 lr 0.00031 --- 213.77 ms/batch
+Step 150 Loss 3.281 Acc 0.86 lr 0.00031 --- 211.73 ms/batch
+Step 200 Loss 3.094 Acc 0.87 lr 0.00031 --- 207.38 ms/batch
+Step 250 Loss 3.300 Acc 0.87 lr 0.00031 --- 212.29 ms/batch
+Step 300 Loss 4.037 Acc 0.84 lr 0.00031 --- 211.51 ms/batch
+Step 350 Loss 3.264 Acc 0.86 lr 0.00031 --- 208.45 ms/batch
+Step 400 Loss 2.961 Acc 0.88 lr 0.00031 --- 211.92 ms/batch
+Step 450 Loss 3.449 Acc 0.86 lr 0.00031 --- 210.85 ms/batch
+Step 500 Loss 3.715 Acc 0.85 lr 0.00031 --- 213.03 ms/batch
+mean IoU:59.7
+IoU: 0.00 26.02 54.26 69.99 79.88 59.94 57.21 32.85 85.92 93.27 51.41 40.27  0.03 65.80 77.16 91.29 87.11  9.67 88.11 89.48 93.06 
+Best mIoU = 61.18%
+**** EVAL EPOCH 067 END****
+
+**** EPOCH 068 ****
+2024-01-21 05:49:54.435319
+Step 050 Loss 3.261 Acc 0.86 lr 0.00029 --- 215.87 ms/batch
+Step 100 Loss 3.612 Acc 0.85 lr 0.00029 --- 210.92 ms/batch
+Step 150 Loss 3.683 Acc 0.85 lr 0.00029 --- 213.69 ms/batch
+Step 200 Loss 3.197 Acc 0.87 lr 0.00029 --- 211.32 ms/batch
+Step 250 Loss 3.173 Acc 0.87 lr 0.00029 --- 208.93 ms/batch
+Step 300 Loss 3.501 Acc 0.86 lr 0.00029 --- 227.42 ms/batch
+Step 350 Loss 3.932 Acc 0.85 lr 0.00029 --- 211.02 ms/batch
+Step 400 Loss 3.009 Acc 0.87 lr 0.00029 --- 211.97 ms/batch
+Step 450 Loss 3.672 Acc 0.86 lr 0.00029 --- 218.38 ms/batch
+Step 500 Loss 4.256 Acc 0.83 lr 0.00029 --- 209.25 ms/batch
+mean IoU:59.6
+IoU: 0.00 28.28 54.57 69.98 77.54 59.05 68.16 36.00 86.95 93.10 51.52 40.15  0.09 64.56 78.82 88.53 84.32  8.13 84.88 85.54 92.16 
+Best mIoU = 61.18%
+**** EVAL EPOCH 068 END****
+
+**** EPOCH 069 ****
+2024-01-21 05:55:59.628294
+Step 050 Loss 3.289 Acc 0.87 lr 0.00028 --- 211.72 ms/batch
+Step 100 Loss 3.619 Acc 0.85 lr 0.00028 --- 213.83 ms/batch
+Step 150 Loss 3.387 Acc 0.86 lr 0.00028 --- 212.37 ms/batch
+Step 200 Loss 3.519 Acc 0.86 lr 0.00028 --- 209.15 ms/batch
+Step 250 Loss 3.244 Acc 0.86 lr 0.00028 --- 216.48 ms/batch
+Step 300 Loss 3.337 Acc 0.87 lr 0.00028 --- 210.20 ms/batch
+Step 350 Loss 3.321 Acc 0.87 lr 0.00028 --- 211.56 ms/batch
+Step 400 Loss 3.245 Acc 0.87 lr 0.00028 --- 213.13 ms/batch
+Step 450 Loss 3.503 Acc 0.87 lr 0.00028 --- 211.90 ms/batch
+Step 500 Loss 3.924 Acc 0.85 lr 0.00028 --- 212.57 ms/batch
+mean IoU:61.3
+IoU: 0.00 29.31 58.10 76.43 81.13 63.92 69.65 35.22 87.79 93.40 51.63 39.97  0.13 65.63 74.73 90.58 87.23 10.28 87.69 89.00 94.47 
+Best mIoU = 61.25%
+**** EVAL EPOCH 069 END****
+
+**** EPOCH 070 ****
+2024-01-21 06:02:03.693423
+Step 050 Loss 3.475 Acc 0.87 lr 0.00026 --- 209.51 ms/batch
+Step 100 Loss 3.238 Acc 0.87 lr 0.00026 --- 211.04 ms/batch
+Step 150 Loss 2.806 Acc 0.88 lr 0.00026 --- 211.00 ms/batch
+Step 200 Loss 3.584 Acc 0.85 lr 0.00026 --- 207.18 ms/batch
+Step 250 Loss 3.784 Acc 0.86 lr 0.00026 --- 210.23 ms/batch
+Step 300 Loss 3.145 Acc 0.88 lr 0.00026 --- 210.29 ms/batch
+Step 350 Loss 3.696 Acc 0.86 lr 0.00026 --- 210.16 ms/batch
+Step 400 Loss 3.572 Acc 0.86 lr 0.00026 --- 212.46 ms/batch
+Step 450 Loss 3.243 Acc 0.88 lr 0.00026 --- 213.38 ms/batch
+Step 500 Loss 3.113 Acc 0.87 lr 0.00026 --- 209.62 ms/batch
+mean IoU:61.0
+IoU: 0.00 28.99 55.18 67.68 80.72 65.09 75.07 33.09 86.87 93.60 52.15 40.00  0.03 66.13 79.58 90.58 87.73  9.35 88.58 88.83 91.34 
+Best mIoU = 61.25%
+**** EVAL EPOCH 070 END****
+
+**** EPOCH 071 ****
+2024-01-21 06:08:08.191556
+Step 050 Loss 3.492 Acc 0.86 lr 0.00025 --- 220.57 ms/batch
+Step 100 Loss 3.485 Acc 0.86 lr 0.00025 --- 211.59 ms/batch
+Step 150 Loss 3.217 Acc 0.87 lr 0.00025 --- 209.93 ms/batch
+Step 200 Loss 3.595 Acc 0.86 lr 0.00025 --- 211.48 ms/batch
+Step 250 Loss 3.591 Acc 0.86 lr 0.00025 --- 210.19 ms/batch
+Step 300 Loss 3.331 Acc 0.87 lr 0.00025 --- 220.52 ms/batch
+Step 350 Loss 3.468 Acc 0.87 lr 0.00025 --- 208.45 ms/batch
+Step 400 Loss 3.629 Acc 0.86 lr 0.00025 --- 209.60 ms/batch
+Step 450 Loss 3.845 Acc 0.84 lr 0.00025 --- 210.85 ms/batch
+Step 500 Loss 3.514 Acc 0.86 lr 0.00025 --- 217.37 ms/batch
+mean IoU:60.9
+IoU: 0.00 27.43 55.67 74.13 80.29 61.70 69.08 37.05 87.00 93.40 51.16 39.57  0.03 64.71 78.98 90.70 86.97 12.20 87.93 88.87 92.29 
+Best mIoU = 61.25%
+**** EVAL EPOCH 071 END****
+
+**** EPOCH 072 ****
+2024-01-21 06:14:11.983751
+Step 050 Loss 3.433 Acc 0.87 lr 0.00024 --- 211.69 ms/batch
+Step 100 Loss 3.295 Acc 0.86 lr 0.00024 --- 214.57 ms/batch
+Step 150 Loss 3.694 Acc 0.86 lr 0.00024 --- 211.10 ms/batch
+Step 200 Loss 3.595 Acc 0.85 lr 0.00024 --- 211.08 ms/batch
+Step 250 Loss 3.268 Acc 0.86 lr 0.00024 --- 211.25 ms/batch
+Step 300 Loss 3.188 Acc 0.87 lr 0.00024 --- 219.98 ms/batch
+Step 350 Loss 3.000 Acc 0.88 lr 0.00024 --- 211.54 ms/batch
+Step 400 Loss 3.363 Acc 0.86 lr 0.00024 --- 213.53 ms/batch
+Step 450 Loss 3.465 Acc 0.86 lr 0.00024 --- 211.98 ms/batch
+Step 500 Loss 3.503 Acc 0.86 lr 0.00024 --- 211.55 ms/batch
+mean IoU:61.0
+IoU: 0.00 29.96 58.06 76.12 79.74 60.90 72.45 34.99 86.71 93.27 51.91 40.22  0.05 65.42 78.59 90.78 86.12  7.22 87.83 88.57 91.25 
+Best mIoU = 61.25%
+**** EVAL EPOCH 072 END****
+
+**** EPOCH 073 ****
+2024-01-21 06:20:16.671674
+Step 050 Loss 3.464 Acc 0.86 lr 0.00022 --- 214.13 ms/batch
+Step 100 Loss 3.622 Acc 0.86 lr 0.00022 --- 209.19 ms/batch
+Step 150 Loss 3.355 Acc 0.86 lr 0.00022 --- 212.66 ms/batch
+Step 200 Loss 3.189 Acc 0.87 lr 0.00022 --- 209.11 ms/batch
+Step 250 Loss 3.341 Acc 0.87 lr 0.00022 --- 212.27 ms/batch
+Step 300 Loss 3.308 Acc 0.87 lr 0.00022 --- 210.68 ms/batch
+Step 350 Loss 3.559 Acc 0.87 lr 0.00022 --- 208.82 ms/batch
+Step 400 Loss 3.275 Acc 0.87 lr 0.00022 --- 214.64 ms/batch
+Step 450 Loss 3.295 Acc 0.87 lr 0.00022 --- 209.99 ms/batch
+Step 500 Loss 2.982 Acc 0.88 lr 0.00022 --- 210.11 ms/batch
+mean IoU:61.4
+IoU: 0.00 28.56 57.10 77.35 81.67 64.32 74.51 27.55 87.78 93.62 51.77 40.48  0.10 66.80 79.30 89.96 87.51 10.34 87.43 89.76 94.19 
+Best mIoU = 61.43%
+**** EVAL EPOCH 073 END****
+
+**** EPOCH 074 ****
+2024-01-21 06:26:20.862953
+Step 050 Loss 3.185 Acc 0.87 lr 0.00021 --- 210.45 ms/batch
+Step 100 Loss 3.328 Acc 0.87 lr 0.00021 --- 210.80 ms/batch
+Step 150 Loss 3.278 Acc 0.87 lr 0.00021 --- 212.03 ms/batch
+Step 200 Loss 3.506 Acc 0.86 lr 0.00021 --- 209.69 ms/batch
+Step 250 Loss 3.550 Acc 0.86 lr 0.00021 --- 210.21 ms/batch
+Step 300 Loss 3.424 Acc 0.86 lr 0.00021 --- 213.88 ms/batch
+Step 350 Loss 3.340 Acc 0.86 lr 0.00021 --- 211.86 ms/batch
+Step 400 Loss 3.182 Acc 0.87 lr 0.00021 --- 209.76 ms/batch
+Step 450 Loss 3.276 Acc 0.87 lr 0.00021 --- 209.81 ms/batch
+Step 500 Loss 3.275 Acc 0.87 lr 0.00021 --- 211.85 ms/batch
+mean IoU:61.1
+IoU: 0.00 27.66 55.96 65.01 80.41 62.31 77.87 34.65 86.73 93.41 52.74 40.69  0.05 66.01 78.91 91.93 87.31 11.30 89.00 90.80 91.03 
+Best mIoU = 61.43%
+**** EVAL EPOCH 074 END****
+
+**** EPOCH 075 ****
+2024-01-21 06:32:26.664056
+Step 050 Loss 3.553 Acc 0.87 lr 0.00020 --- 212.46 ms/batch
+Step 100 Loss 2.973 Acc 0.88 lr 0.00020 --- 210.47 ms/batch
+Step 150 Loss 3.289 Acc 0.87 lr 0.00020 --- 210.50 ms/batch
+Step 200 Loss 3.484 Acc 0.87 lr 0.00020 --- 206.92 ms/batch
+Step 250 Loss 3.412 Acc 0.86 lr 0.00020 --- 210.36 ms/batch
+Step 300 Loss 3.643 Acc 0.86 lr 0.00020 --- 213.35 ms/batch
+Step 350 Loss 3.417 Acc 0.85 lr 0.00020 --- 213.29 ms/batch
+Step 400 Loss 2.802 Acc 0.88 lr 0.00020 --- 209.73 ms/batch
+Step 450 Loss 3.011 Acc 0.88 lr 0.00020 --- 213.31 ms/batch
+Step 500 Loss 3.532 Acc 0.87 lr 0.00020 --- 209.34 ms/batch
+mean IoU:61.7
+IoU: 0.00 30.67 54.02 74.70 82.27 64.11 60.84 48.19 87.66 93.72 52.92 40.40  0.04 66.73 80.88 90.78 87.49 12.01 88.55 88.14 92.26 
+Best mIoU = 61.73%
+**** EVAL EPOCH 075 END****
+
+**** EPOCH 076 ****
+2024-01-21 06:38:32.192450
+Step 050 Loss 3.446 Acc 0.85 lr 0.00019 --- 208.66 ms/batch
+Step 100 Loss 3.460 Acc 0.87 lr 0.00019 --- 209.90 ms/batch
+Step 150 Loss 3.424 Acc 0.86 lr 0.00019 --- 212.13 ms/batch
+Step 200 Loss 3.520 Acc 0.87 lr 0.00019 --- 209.17 ms/batch
+Step 250 Loss 2.955 Acc 0.88 lr 0.00019 --- 212.80 ms/batch
+Step 300 Loss 3.605 Acc 0.86 lr 0.00019 --- 222.44 ms/batch
+Step 350 Loss 3.136 Acc 0.88 lr 0.00019 --- 208.29 ms/batch
+Step 400 Loss 3.359 Acc 0.86 lr 0.00019 --- 212.00 ms/batch
+Step 450 Loss 3.522 Acc 0.86 lr 0.00019 --- 221.05 ms/batch
+Step 500 Loss 3.291 Acc 0.87 lr 0.00019 --- 211.04 ms/batch
+mean IoU:60.2
+IoU: 0.00 25.96 53.70 70.46 81.90 65.77 51.05 37.98 87.90 93.46 52.67 40.81  0.09 65.67 78.25 89.82 87.92  8.58 88.32 90.14 93.29 
+Best mIoU = 61.73%
+**** EVAL EPOCH 076 END****
+
+**** EPOCH 077 ****
+2024-01-21 06:44:37.679304
+Step 050 Loss 3.418 Acc 0.86 lr 0.00018 --- 209.04 ms/batch
+Step 100 Loss 3.389 Acc 0.86 lr 0.00018 --- 211.63 ms/batch
+Step 150 Loss 3.273 Acc 0.86 lr 0.00018 --- 211.01 ms/batch
+Step 200 Loss 3.164 Acc 0.88 lr 0.00018 --- 214.13 ms/batch
+Step 250 Loss 3.072 Acc 0.87 lr 0.00018 --- 216.78 ms/batch
+Step 300 Loss 3.520 Acc 0.86 lr 0.00018 --- 210.81 ms/batch
+Step 350 Loss 3.479 Acc 0.87 lr 0.00018 --- 213.79 ms/batch
+Step 400 Loss 3.447 Acc 0.87 lr 0.00018 --- 209.69 ms/batch
+Step 450 Loss 3.194 Acc 0.87 lr 0.00018 --- 210.22 ms/batch
+Step 500 Loss 2.992 Acc 0.88 lr 0.00018 --- 209.52 ms/batch
+mean IoU:62.0
+IoU: 0.00 30.92 57.01 80.68 81.08 62.89 72.73 33.23 87.84 93.59 52.28 40.68  0.11 66.52 80.81 91.63 87.28 13.46 88.33 88.73 93.17 
+Best mIoU = 62.05%
+**** EVAL EPOCH 077 END****
+
+**** EPOCH 078 ****
+2024-01-21 06:50:42.496287
+Step 050 Loss 4.045 Acc 0.84 lr 0.00017 --- 208.17 ms/batch
+Step 100 Loss 2.955 Acc 0.88 lr 0.00017 --- 211.54 ms/batch
+Step 150 Loss 3.344 Acc 0.87 lr 0.00017 --- 207.30 ms/batch
+Step 200 Loss 2.788 Acc 0.88 lr 0.00017 --- 214.47 ms/batch
+Step 250 Loss 3.642 Acc 0.86 lr 0.00017 --- 208.43 ms/batch
+Step 300 Loss 3.327 Acc 0.86 lr 0.00017 --- 211.87 ms/batch
+Step 350 Loss 3.464 Acc 0.87 lr 0.00017 --- 212.75 ms/batch
+Step 400 Loss 3.515 Acc 0.86 lr 0.00017 --- 211.89 ms/batch
+Step 450 Loss 3.182 Acc 0.87 lr 0.00017 --- 214.61 ms/batch
+Step 500 Loss 3.295 Acc 0.87 lr 0.00017 --- 209.68 ms/batch
+mean IoU:62.0
+IoU: 0.00 28.43 55.90 78.86 81.46 64.66 79.05 37.60 87.29 93.33 52.70 41.12  0.05 65.24 78.23 91.14 87.99 10.03 88.35 87.41 93.02 
+Best mIoU = 62.05%
+**** EVAL EPOCH 078 END****
+
+**** EPOCH 079 ****
+2024-01-21 06:56:46.655878
+Step 050 Loss 3.157 Acc 0.87 lr 0.00017 --- 212.39 ms/batch
+Step 100 Loss 3.237 Acc 0.87 lr 0.00017 --- 213.01 ms/batch
+Step 150 Loss 3.207 Acc 0.87 lr 0.00017 --- 213.62 ms/batch
+Step 200 Loss 2.892 Acc 0.89 lr 0.00017 --- 210.68 ms/batch
+Step 250 Loss 3.740 Acc 0.86 lr 0.00017 --- 213.80 ms/batch
+Step 300 Loss 3.432 Acc 0.86 lr 0.00017 --- 218.24 ms/batch
+Step 350 Loss 3.557 Acc 0.86 lr 0.00017 --- 209.56 ms/batch
+Step 400 Loss 3.317 Acc 0.86 lr 0.00017 --- 207.92 ms/batch
+Step 450 Loss 3.473 Acc 0.86 lr 0.00017 --- 208.24 ms/batch
+Step 500 Loss 3.254 Acc 0.87 lr 0.00017 --- 217.82 ms/batch
+mean IoU:62.0
+IoU: 0.00 30.11 55.59 72.07 81.38 63.96 76.67 40.62 87.45 93.72 52.87 40.89  0.05 66.55 79.06 90.46 86.71 13.03 88.04 89.79 92.80 
+Best mIoU = 62.05%
+**** EVAL EPOCH 079 END****
+
+**** EPOCH 080 ****
+2024-01-21 07:02:51.814763
+Step 050 Loss 2.929 Acc 0.88 lr 0.00016 --- 209.89 ms/batch
+Step 100 Loss 2.984 Acc 0.88 lr 0.00016 --- 214.82 ms/batch
+Step 150 Loss 3.426 Acc 0.86 lr 0.00016 --- 211.41 ms/batch
+Step 200 Loss 3.152 Acc 0.87 lr 0.00016 --- 209.28 ms/batch
+Step 250 Loss 3.029 Acc 0.88 lr 0.00016 --- 213.00 ms/batch
+Step 300 Loss 3.159 Acc 0.87 lr 0.00016 --- 212.18 ms/batch
+Step 350 Loss 3.839 Acc 0.86 lr 0.00016 --- 209.13 ms/batch
+Step 400 Loss 3.040 Acc 0.88 lr 0.00016 --- 211.89 ms/batch
+Step 450 Loss 3.270 Acc 0.87 lr 0.00016 --- 209.17 ms/batch
+Step 500 Loss 3.114 Acc 0.88 lr 0.00016 --- 208.96 ms/batch
+mean IoU:62.7
+IoU: 0.00 30.41 58.11 78.78 82.49 67.14 80.85 36.03 88.19 93.87 53.44 40.68  0.06 67.02 78.39 91.76 88.02 10.41 88.21 90.75 93.08 
+Best mIoU = 62.75%
+**** EVAL EPOCH 080 END****
+
+**** EPOCH 081 ****
+2024-01-21 07:08:56.380060
+Step 050 Loss 3.520 Acc 0.86 lr 0.00015 --- 220.51 ms/batch
+Step 100 Loss 2.811 Acc 0.88 lr 0.00015 --- 211.19 ms/batch
+Step 150 Loss 3.145 Acc 0.88 lr 0.00015 --- 210.78 ms/batch
+Step 200 Loss 3.336 Acc 0.88 lr 0.00015 --- 211.70 ms/batch
+Step 250 Loss 3.406 Acc 0.87 lr 0.00015 --- 211.15 ms/batch
+Step 300 Loss 3.097 Acc 0.87 lr 0.00015 --- 210.86 ms/batch
+Step 350 Loss 3.756 Acc 0.85 lr 0.00015 --- 209.34 ms/batch
+Step 400 Loss 3.118 Acc 0.88 lr 0.00015 --- 210.45 ms/batch
+Step 450 Loss 3.104 Acc 0.88 lr 0.00015 --- 213.09 ms/batch
+Step 500 Loss 3.404 Acc 0.87 lr 0.00015 --- 211.28 ms/batch
+mean IoU:62.3
+IoU: 0.00 30.72 57.37 81.46 82.45 68.17 70.26 35.47 88.74 93.76 52.45 41.61  0.10 66.68 77.96 89.64 88.23 12.34 88.45 89.68 92.92 
+Best mIoU = 62.75%
+**** EVAL EPOCH 081 END****
+
+**** EPOCH 082 ****
+2024-01-21 07:15:02.461333
+Step 050 Loss 3.113 Acc 0.87 lr 0.00014 --- 211.33 ms/batch
+Step 100 Loss 3.019 Acc 0.88 lr 0.00014 --- 207.60 ms/batch
+Step 150 Loss 2.947 Acc 0.87 lr 0.00014 --- 216.85 ms/batch
+Step 200 Loss 3.613 Acc 0.86 lr 0.00014 --- 211.81 ms/batch
+Step 250 Loss 4.198 Acc 0.85 lr 0.00014 --- 208.84 ms/batch
+Step 300 Loss 3.308 Acc 0.87 lr 0.00014 --- 207.27 ms/batch
+Step 350 Loss 3.232 Acc 0.86 lr 0.00014 --- 210.17 ms/batch
+Step 400 Loss 3.068 Acc 0.88 lr 0.00014 --- 210.42 ms/batch
+Step 450 Loss 3.165 Acc 0.87 lr 0.00014 --- 212.33 ms/batch
+Step 500 Loss 2.959 Acc 0.88 lr 0.00014 --- 208.57 ms/batch
+mean IoU:61.8
+IoU: 0.00 29.88 56.16 70.40 81.89 63.67 74.07 37.35 87.73 93.68 53.21 41.08  0.07 66.27 78.03 91.58 87.75 10.63 88.93 91.19 93.22 
+Best mIoU = 62.75%
+**** EVAL EPOCH 082 END****
+
+**** EPOCH 083 ****
+2024-01-21 07:21:06.264639
+Step 050 Loss 2.878 Acc 0.89 lr 0.00013 --- 207.43 ms/batch
+Step 100 Loss 3.406 Acc 0.86 lr 0.00013 --- 212.41 ms/batch
+Step 150 Loss 3.212 Acc 0.88 lr 0.00013 --- 212.07 ms/batch
+Step 200 Loss 3.361 Acc 0.87 lr 0.00013 --- 209.68 ms/batch
+Step 250 Loss 3.069 Acc 0.87 lr 0.00013 --- 211.03 ms/batch
+Step 300 Loss 2.855 Acc 0.89 lr 0.00013 --- 216.80 ms/batch
+Step 350 Loss 3.368 Acc 0.87 lr 0.00013 --- 210.33 ms/batch
+Step 400 Loss 3.511 Acc 0.86 lr 0.00013 --- 209.47 ms/batch
+Step 450 Loss 2.649 Acc 0.88 lr 0.00013 --- 207.65 ms/batch
+Step 500 Loss 3.498 Acc 0.87 lr 0.00013 --- 213.38 ms/batch
+mean IoU:62.3
+IoU: 0.00 28.62 58.97 77.24 83.07 66.98 69.83 36.80 88.08 93.77 54.16 41.49  0.07 68.49 80.27 91.02 87.41  9.06 88.42 90.50 93.60 
+Best mIoU = 62.75%
+**** EVAL EPOCH 083 END****
+
+**** EPOCH 084 ****
+2024-01-21 07:27:11.301581
+Step 050 Loss 3.019 Acc 0.88 lr 0.00013 --- 215.79 ms/batch
+Step 100 Loss 3.196 Acc 0.87 lr 0.00013 --- 210.93 ms/batch
+Step 150 Loss 2.944 Acc 0.88 lr 0.00013 --- 211.05 ms/batch
+Step 200 Loss 3.168 Acc 0.87 lr 0.00013 --- 211.48 ms/batch
+Step 250 Loss 3.182 Acc 0.88 lr 0.00013 --- 212.04 ms/batch
+Step 300 Loss 3.075 Acc 0.87 lr 0.00013 --- 212.54 ms/batch
+Step 350 Loss 3.434 Acc 0.86 lr 0.00013 --- 227.09 ms/batch
+Step 400 Loss 3.267 Acc 0.86 lr 0.00013 --- 208.68 ms/batch
+Step 450 Loss 3.505 Acc 0.86 lr 0.00013 --- 209.93 ms/batch
+Step 500 Loss 3.392 Acc 0.87 lr 0.00013 --- 214.31 ms/batch
+mean IoU:63.0
+IoU: 0.00 30.90 57.72 75.87 82.67 66.88 79.64 36.70 88.29 93.85 52.89 41.02  0.10 66.37 79.59 91.23 87.63 18.92 88.17 90.23 93.72 
+Best mIoU = 62.97%
+**** EVAL EPOCH 084 END****
+
+**** EPOCH 085 ****
+2024-01-21 07:33:17.489143
+Step 050 Loss 3.292 Acc 0.86 lr 0.00012 --- 215.29 ms/batch
+Step 100 Loss 3.035 Acc 0.87 lr 0.00012 --- 212.34 ms/batch
+Step 150 Loss 3.340 Acc 0.87 lr 0.00012 --- 212.00 ms/batch
+Step 200 Loss 2.805 Acc 0.89 lr 0.00012 --- 219.40 ms/batch
+Step 250 Loss 3.054 Acc 0.87 lr 0.00012 --- 210.58 ms/batch
+Step 300 Loss 3.363 Acc 0.87 lr 0.00012 --- 216.40 ms/batch
+Step 350 Loss 3.542 Acc 0.86 lr 0.00012 --- 209.95 ms/batch
+Step 400 Loss 3.166 Acc 0.87 lr 0.00012 --- 212.28 ms/batch
+Step 450 Loss 3.101 Acc 0.88 lr 0.00012 --- 215.20 ms/batch
+Step 500 Loss 3.442 Acc 0.87 lr 0.00012 --- 215.05 ms/batch
+mean IoU:62.3
+IoU: 0.00 29.21 56.71 80.57 83.15 67.31 77.34 36.37 88.50 93.37 54.51 41.73  0.10 67.35 77.91 89.81 86.81  9.72 87.68 89.19 90.16 
+Best mIoU = 62.97%
+**** EVAL EPOCH 085 END****
+
+**** EPOCH 086 ****
+2024-01-21 07:39:21.579837
+Step 050 Loss 3.138 Acc 0.87 lr 0.00012 --- 211.50 ms/batch
+Step 100 Loss 3.357 Acc 0.87 lr 0.00012 --- 209.32 ms/batch
+Step 150 Loss 3.102 Acc 0.88 lr 0.00012 --- 214.45 ms/batch
+Step 200 Loss 3.260 Acc 0.86 lr 0.00012 --- 211.79 ms/batch
+Step 250 Loss 3.636 Acc 0.86 lr 0.00012 --- 213.20 ms/batch
+Step 300 Loss 3.282 Acc 0.86 lr 0.00012 --- 214.53 ms/batch
+Step 350 Loss 3.106 Acc 0.88 lr 0.00012 --- 214.94 ms/batch
+Step 400 Loss 3.266 Acc 0.87 lr 0.00012 --- 212.70 ms/batch
+Step 450 Loss 3.201 Acc 0.87 lr 0.00012 --- 209.77 ms/batch
+Step 500 Loss 3.676 Acc 0.86 lr 0.00012 --- 208.56 ms/batch
+mean IoU:61.8
+IoU: 0.00 31.76 56.87 74.94 80.56 65.24 68.36 36.91 88.75 94.03 53.34 40.75  0.17 66.02 80.73 90.30 88.17 11.02 89.09 89.33 91.98 
+Best mIoU = 62.97%
+**** EVAL EPOCH 086 END****
+
+**** EPOCH 087 ****
+2024-01-21 07:45:25.175886
+Step 050 Loss 3.123 Acc 0.87 lr 0.00011 --- 212.33 ms/batch
+Step 100 Loss 3.183 Acc 0.87 lr 0.00011 --- 210.82 ms/batch
+Step 150 Loss 3.462 Acc 0.87 lr 0.00011 --- 210.49 ms/batch
+Step 200 Loss 2.942 Acc 0.88 lr 0.00011 --- 209.12 ms/batch
+Step 250 Loss 3.257 Acc 0.87 lr 0.00011 --- 211.75 ms/batch
+Step 300 Loss 3.308 Acc 0.87 lr 0.00011 --- 210.69 ms/batch
+Step 350 Loss 3.087 Acc 0.87 lr 0.00011 --- 214.10 ms/batch
+Step 400 Loss 3.316 Acc 0.87 lr 0.00011 --- 213.12 ms/batch
+Step 450 Loss 3.248 Acc 0.87 lr 0.00011 --- 210.39 ms/batch
+Step 500 Loss 3.211 Acc 0.88 lr 0.00011 --- 210.01 ms/batch
+mean IoU:62.1
+IoU: 0.00 29.56 54.93 74.08 82.40 65.30 73.29 35.56 88.28 93.89 54.10 41.67  0.14 67.37 78.98 88.91 88.23 15.59 88.17 90.38 93.20 
+Best mIoU = 62.97%
+**** EVAL EPOCH 087 END****
+
+**** EPOCH 088 ****
+2024-01-21 07:51:31.416788
+Step 050 Loss 3.544 Acc 0.86 lr 0.00010 --- 212.58 ms/batch
+Step 100 Loss 2.732 Acc 0.89 lr 0.00010 --- 209.23 ms/batch
+Step 150 Loss 3.112 Acc 0.87 lr 0.00010 --- 211.37 ms/batch
+Step 200 Loss 3.478 Acc 0.86 lr 0.00010 --- 207.92 ms/batch
+Step 250 Loss 2.963 Acc 0.88 lr 0.00010 --- 213.54 ms/batch
+Step 300 Loss 3.176 Acc 0.87 lr 0.00010 --- 214.32 ms/batch
+Step 350 Loss 2.956 Acc 0.87 lr 0.00010 --- 211.18 ms/batch
+Step 400 Loss 3.023 Acc 0.88 lr 0.00010 --- 210.50 ms/batch
+Step 450 Loss 3.285 Acc 0.87 lr 0.00010 --- 214.29 ms/batch
+Step 500 Loss 2.865 Acc 0.89 lr 0.00010 --- 211.21 ms/batch
+mean IoU:62.6
+IoU: 0.00 30.22 59.49 74.12 81.51 70.07 75.12 40.88 87.99 93.76 53.52 41.07  0.14 66.23 79.79 91.06 87.08 10.74 88.24 91.67 92.69 
+Best mIoU = 62.97%
+**** EVAL EPOCH 088 END****
+
+**** EPOCH 089 ****
+2024-01-21 07:57:35.893799
+Step 050 Loss 3.167 Acc 0.88 lr 0.00010 --- 210.43 ms/batch
+Step 100 Loss 3.341 Acc 0.87 lr 0.00010 --- 212.55 ms/batch
+Step 150 Loss 3.276 Acc 0.86 lr 0.00010 --- 208.24 ms/batch
+Step 200 Loss 3.544 Acc 0.86 lr 0.00010 --- 208.95 ms/batch
+Step 250 Loss 2.807 Acc 0.88 lr 0.00010 --- 210.39 ms/batch
+Step 300 Loss 3.610 Acc 0.86 lr 0.00010 --- 213.19 ms/batch
+Step 350 Loss 3.000 Acc 0.88 lr 0.00010 --- 212.90 ms/batch
+Step 400 Loss 3.200 Acc 0.88 lr 0.00010 --- 209.36 ms/batch
+Step 450 Loss 2.996 Acc 0.88 lr 0.00010 --- 215.67 ms/batch
+Step 500 Loss 2.890 Acc 0.88 lr 0.00010 --- 211.72 ms/batch
+mean IoU:62.1
+IoU: 0.00 29.13 54.36 75.89 81.29 64.48 72.58 36.93 88.21 93.92 54.55 42.24  0.09 67.57 79.56 91.44 88.34 12.16 88.36 90.81 92.97 
+Best mIoU = 62.97%
+**** EVAL EPOCH 089 END****
+
+**** EPOCH 090 ****
+2024-01-21 08:03:40.955884
+Step 050 Loss 3.379 Acc 0.87 lr 0.00009 --- 215.86 ms/batch
+Step 100 Loss 3.160 Acc 0.88 lr 0.00009 --- 210.29 ms/batch
+Step 150 Loss 3.587 Acc 0.86 lr 0.00009 --- 211.05 ms/batch
+Step 200 Loss 3.391 Acc 0.86 lr 0.00009 --- 211.07 ms/batch
+Step 250 Loss 3.499 Acc 0.86 lr 0.00009 --- 229.58 ms/batch
+Step 300 Loss 3.642 Acc 0.86 lr 0.00009 --- 209.74 ms/batch
+Step 350 Loss 3.060 Acc 0.88 lr 0.00009 --- 210.69 ms/batch
+Step 400 Loss 3.220 Acc 0.88 lr 0.00009 --- 213.33 ms/batch
+Step 450 Loss 2.985 Acc 0.88 lr 0.00009 --- 211.46 ms/batch
+Step 500 Loss 2.701 Acc 0.89 lr 0.00009 --- 211.66 ms/batch
+mean IoU:61.7
+IoU: 0.00 27.72 56.94 71.13 82.21 67.96 69.26 37.25 87.90 93.88 52.82 41.73  0.16 67.42 80.61 91.09 86.89  7.45 87.75 91.10 93.58 
+Best mIoU = 62.97%
+**** EVAL EPOCH 090 END****
+
+**** EPOCH 091 ****
+2024-01-21 08:09:45.478251
+Step 050 Loss 3.214 Acc 0.88 lr 0.00009 --- 211.30 ms/batch
+Step 100 Loss 3.213 Acc 0.86 lr 0.00009 --- 210.73 ms/batch
+Step 150 Loss 3.171 Acc 0.88 lr 0.00009 --- 213.62 ms/batch
+Step 200 Loss 3.547 Acc 0.86 lr 0.00009 --- 211.29 ms/batch
+Step 250 Loss 3.571 Acc 0.87 lr 0.00009 --- 213.78 ms/batch
+Step 300 Loss 3.594 Acc 0.86 lr 0.00009 --- 210.81 ms/batch
+Step 350 Loss 2.968 Acc 0.88 lr 0.00009 --- 211.83 ms/batch
+Step 400 Loss 3.237 Acc 0.87 lr 0.00009 --- 212.96 ms/batch
+Step 450 Loss 3.307 Acc 0.88 lr 0.00009 --- 210.50 ms/batch
+Step 500 Loss 3.083 Acc 0.87 lr 0.00009 --- 210.30 ms/batch
+mean IoU:60.6
+IoU: 0.00 30.26 58.60 48.21 82.85 65.26 69.63 36.34 87.20 93.75 52.80 41.58  0.11 66.73 79.19 91.04 87.95 10.05 89.44 90.31 91.85 
+Best mIoU = 62.97%
+**** EVAL EPOCH 091 END****
+
+**** EPOCH 092 ****
+2024-01-21 08:15:49.053332
+Step 050 Loss 3.234 Acc 0.87 lr 0.00008 --- 207.40 ms/batch
+Step 100 Loss 3.468 Acc 0.86 lr 0.00008 --- 210.94 ms/batch
+Step 150 Loss 3.239 Acc 0.87 lr 0.00008 --- 208.65 ms/batch
+Step 200 Loss 2.977 Acc 0.88 lr 0.00008 --- 209.72 ms/batch
+Step 250 Loss 3.409 Acc 0.87 lr 0.00008 --- 215.49 ms/batch
+Step 300 Loss 3.475 Acc 0.86 lr 0.00008 --- 216.45 ms/batch
+Step 350 Loss 2.824 Acc 0.89 lr 0.00008 --- 208.26 ms/batch
+Step 400 Loss 3.226 Acc 0.88 lr 0.00008 --- 211.06 ms/batch
+Step 450 Loss 2.793 Acc 0.88 lr 0.00008 --- 211.83 ms/batch
+Step 500 Loss 3.046 Acc 0.88 lr 0.00008 --- 211.68 ms/batch
+mean IoU:62.3
+IoU: 0.00 31.54 58.23 79.63 82.99 67.83 72.29 34.29 88.39 93.83 53.45 41.26  0.13 67.20 79.85 90.70 88.26  6.93 88.48 89.45 93.52 
+Best mIoU = 62.97%
+**** EVAL EPOCH 092 END****
+
+**** EPOCH 093 ****
+2024-01-21 08:21:53.267498
+Step 050 Loss 3.065 Acc 0.88 lr 0.00008 --- 211.82 ms/batch
+Step 100 Loss 3.373 Acc 0.86 lr 0.00008 --- 211.63 ms/batch
+Step 150 Loss 3.478 Acc 0.87 lr 0.00008 --- 210.79 ms/batch
+Step 200 Loss 3.454 Acc 0.86 lr 0.00008 --- 213.66 ms/batch
+Step 250 Loss 3.059 Acc 0.88 lr 0.00008 --- 216.08 ms/batch
+Step 300 Loss 3.580 Acc 0.85 lr 0.00008 --- 214.32 ms/batch
+Step 350 Loss 2.856 Acc 0.88 lr 0.00008 --- 208.22 ms/batch
+Step 400 Loss 3.053 Acc 0.88 lr 0.00008 --- 212.67 ms/batch
+Step 450 Loss 3.136 Acc 0.87 lr 0.00008 --- 216.81 ms/batch
+Step 500 Loss 2.982 Acc 0.88 lr 0.00008 --- 210.54 ms/batch
+mean IoU:62.6
+IoU: 0.00 31.21 57.55 69.30 82.06 67.22 73.36 39.79 88.09 93.83 54.70 41.58  0.17 68.12 81.11 91.00 88.89 16.05 90.10 90.35 91.11 
+Best mIoU = 62.97%
+**** EVAL EPOCH 093 END****
+
+**** EPOCH 094 ****
+2024-01-21 08:27:59.747776
+Step 050 Loss 3.210 Acc 0.87 lr 0.00008 --- 209.67 ms/batch
+Step 100 Loss 3.200 Acc 0.87 lr 0.00008 --- 210.81 ms/batch
+Step 150 Loss 3.548 Acc 0.86 lr 0.00008 --- 210.68 ms/batch
+Step 200 Loss 2.886 Acc 0.88 lr 0.00008 --- 216.89 ms/batch
+Step 250 Loss 3.232 Acc 0.87 lr 0.00008 --- 215.95 ms/batch
+Step 300 Loss 3.272 Acc 0.87 lr 0.00008 --- 211.25 ms/batch
+Step 350 Loss 2.998 Acc 0.88 lr 0.00008 --- 210.06 ms/batch
+Step 400 Loss 3.494 Acc 0.86 lr 0.00008 --- 212.24 ms/batch
+Step 450 Loss 2.954 Acc 0.89 lr 0.00008 --- 210.59 ms/batch
+Step 500 Loss 2.886 Acc 0.88 lr 0.00008 --- 210.61 ms/batch
+mean IoU:62.1
+IoU: 0.00 29.03 55.76 66.76 82.85 68.45 75.15 38.87 88.66 93.91 55.71 42.23  0.13 67.97 80.10 89.65 88.23  8.16 88.77 90.95 93.50 
+Best mIoU = 62.97%
+**** EVAL EPOCH 094 END****
+
+**** EPOCH 095 ****
+2024-01-21 08:34:05.055039
+Step 050 Loss 2.928 Acc 0.87 lr 0.00007 --- 209.39 ms/batch
+Step 100 Loss 3.558 Acc 0.86 lr 0.00007 --- 210.21 ms/batch
+Step 150 Loss 3.252 Acc 0.88 lr 0.00007 --- 212.31 ms/batch
+Step 200 Loss 3.490 Acc 0.86 lr 0.00007 --- 208.98 ms/batch
+Step 250 Loss 3.040 Acc 0.87 lr 0.00007 --- 213.28 ms/batch
+Step 300 Loss 2.979 Acc 0.88 lr 0.00007 --- 213.90 ms/batch
+Step 350 Loss 3.591 Acc 0.86 lr 0.00007 --- 212.75 ms/batch
+Step 400 Loss 2.952 Acc 0.89 lr 0.00007 --- 210.65 ms/batch
+Step 450 Loss 2.947 Acc 0.88 lr 0.00007 --- 216.27 ms/batch
+Step 500 Loss 3.110 Acc 0.87 lr 0.00007 --- 212.06 ms/batch
+mean IoU:62.8
+IoU: 0.00 30.90 57.55 81.41 82.08 67.13 80.02 31.85 87.16 93.75 55.26 42.08  0.15 68.75 79.83 91.28 88.13  9.05 88.78 89.94 94.29 
+Best mIoU = 62.97%
+**** EVAL EPOCH 095 END****
+
+**** EPOCH 096 ****
+2024-01-21 08:40:10.272810
+Step 050 Loss 3.235 Acc 0.88 lr 0.00007 --- 207.97 ms/batch
+Step 100 Loss 3.336 Acc 0.87 lr 0.00007 --- 216.28 ms/batch
+Step 150 Loss 3.027 Acc 0.88 lr 0.00007 --- 207.94 ms/batch
+Step 200 Loss 3.528 Acc 0.85 lr 0.00007 --- 209.22 ms/batch
+Step 250 Loss 3.009 Acc 0.88 lr 0.00007 --- 212.95 ms/batch
+Step 300 Loss 2.986 Acc 0.87 lr 0.00007 --- 212.73 ms/batch
+Step 350 Loss 2.882 Acc 0.88 lr 0.00007 --- 209.38 ms/batch
+Step 400 Loss 3.121 Acc 0.88 lr 0.00007 --- 211.69 ms/batch
+Step 450 Loss 3.515 Acc 0.86 lr 0.00007 --- 211.89 ms/batch
+Step 500 Loss 3.166 Acc 0.87 lr 0.00007 --- 210.99 ms/batch
+mean IoU:63.1
+IoU: 0.00 30.62 56.78 73.78 82.92 67.26 79.88 38.99 87.64 93.66 54.74 41.98  0.07 67.28 81.96 90.15 88.42 17.83 89.06 89.84 92.81 
+Best mIoU = 63.13%
+**** EVAL EPOCH 096 END****
+
+**** EPOCH 097 ****
+2024-01-21 08:46:14.462483
+Step 050 Loss 3.859 Acc 0.86 lr 0.00007 --- 218.30 ms/batch
+Step 100 Loss 3.165 Acc 0.88 lr 0.00007 --- 212.75 ms/batch
+Step 150 Loss 3.356 Acc 0.87 lr 0.00007 --- 210.55 ms/batch
+Step 200 Loss 3.128 Acc 0.88 lr 0.00007 --- 214.34 ms/batch
+Step 250 Loss 3.174 Acc 0.88 lr 0.00007 --- 211.69 ms/batch
+Step 300 Loss 3.136 Acc 0.87 lr 0.00007 --- 212.63 ms/batch
+Step 350 Loss 3.172 Acc 0.87 lr 0.00007 --- 210.90 ms/batch
+Step 400 Loss 3.472 Acc 0.86 lr 0.00007 --- 212.19 ms/batch
+Step 450 Loss 3.222 Acc 0.87 lr 0.00007 --- 209.34 ms/batch
+Step 500 Loss 2.837 Acc 0.88 lr 0.00007 --- 213.28 ms/batch
+mean IoU:63.3
+IoU: 0.00 30.08 57.75 80.66 82.26 66.48 81.14 41.28 87.38 93.91 53.98 41.45  0.12 66.06 79.93 89.51 88.85 16.05 88.85 91.09 92.97 
+Best mIoU = 63.32%
+**** EVAL EPOCH 097 END****
+
+**** EPOCH 098 ****
+2024-01-21 08:52:18.401194
+Step 050 Loss 3.525 Acc 0.86 lr 0.00006 --- 211.65 ms/batch
+Step 100 Loss 3.160 Acc 0.87 lr 0.00006 --- 209.21 ms/batch
+Step 150 Loss 3.426 Acc 0.87 lr 0.00006 --- 211.25 ms/batch
+Step 200 Loss 2.729 Acc 0.89 lr 0.00006 --- 212.38 ms/batch
+Step 250 Loss 3.059 Acc 0.87 lr 0.00006 --- 210.46 ms/batch
+Step 300 Loss 3.115 Acc 0.88 lr 0.00006 --- 208.69 ms/batch
+Step 350 Loss 3.227 Acc 0.87 lr 0.00006 --- 207.20 ms/batch
+Step 400 Loss 3.461 Acc 0.87 lr 0.00006 --- 210.57 ms/batch
+Step 450 Loss 2.670 Acc 0.89 lr 0.00006 --- 210.73 ms/batch
+Step 500 Loss 3.600 Acc 0.86 lr 0.00006 --- 211.88 ms/batch
+mean IoU:62.8
+IoU: 0.00 29.16 59.50 80.50 82.30 67.73 74.58 36.85 88.41 93.67 54.21 41.63  0.10 68.02 81.38 91.01 87.60 10.86 88.77 90.11 92.87 
+Best mIoU = 63.32%
+**** EVAL EPOCH 098 END****
+
+**** EPOCH 099 ****
+2024-01-21 08:58:24.257363
+Step 050 Loss 3.290 Acc 0.87 lr 0.00006 --- 212.27 ms/batch
+Step 100 Loss 3.220 Acc 0.87 lr 0.00006 --- 210.78 ms/batch
+Step 150 Loss 3.081 Acc 0.88 lr 0.00006 --- 213.65 ms/batch
+Step 200 Loss 2.885 Acc 0.88 lr 0.00006 --- 209.54 ms/batch
+Step 250 Loss 3.439 Acc 0.87 lr 0.00006 --- 210.14 ms/batch
+Step 300 Loss 3.108 Acc 0.87 lr 0.00006 --- 210.99 ms/batch
+Step 350 Loss 3.282 Acc 0.87 lr 0.00006 --- 210.06 ms/batch
+Step 400 Loss 3.482 Acc 0.86 lr 0.00006 --- 212.31 ms/batch
+Step 450 Loss 2.913 Acc 0.88 lr 0.00006 --- 209.25 ms/batch
+Step 500 Loss 3.061 Acc 0.88 lr 0.00006 --- 210.43 ms/batch
+mean IoU:62.6
+IoU: 0.00 31.45 54.17 66.59 83.41 69.36 86.31 33.63 88.54 94.01 54.87 42.50  0.14 69.01 78.96 90.76 87.40 11.95 87.87 90.73 93.51 
+Best mIoU = 63.32%
+**** EVAL EPOCH 099 END****
+

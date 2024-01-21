@@ -1,0 +1,15 @@
+**** EPOCH 000 ****
+2024-01-20 20:03:01.354466
+Step 050 Loss 7.124 Acc 0.40 lr 0.00950 --- 219.71 ms/batch
+Step 100 Loss 6.939 Acc 0.58 lr 0.00950 --- 220.55 ms/batch
+Step 150 Loss 7.409 Acc 0.60 lr 0.00950 --- 220.86 ms/batch
+Step 200 Loss 6.796 Acc 0.61 lr 0.00950 --- 222.45 ms/batch
+Step 250 Loss 6.204 Acc 0.62 lr 0.00950 --- 219.08 ms/batch
+Step 300 Loss 6.763 Acc 0.64 lr 0.00950 --- 218.10 ms/batch
+Step 350 Loss 5.712 Acc 0.66 lr 0.00950 --- 219.78 ms/batch
+Step 400 Loss 5.805 Acc 0.63 lr 0.00950 --- 220.37 ms/batch
+Step 450 Loss 5.914 Acc 0.66 lr 0.00950 --- 220.84 ms/batch
+Step 500 Loss 5.461 Acc 0.62 lr 0.00950 --- 220.78 ms/batch
+mean IoU:4.2
+IoU:61.34  0.32  0.47  0.00  0.32  0.42  0.04  0.00  4.10 15.32  0.64  0.56  0.00  2.19  0.44  1.75  0.04  0.00  0.08  0.23  0.72 
+**** EVAL EPOCH 000 START****
